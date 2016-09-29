@@ -1,0 +1,19 @@
+{
+  "name": "react-native-mercadopago",
+  "version": "0.0.1",
+  "description": "React Native wrapper for Mercadopago Cordova Plugin",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "mercadopago",
+    "cordova"
+  ],
+  "author": {
+    "name": "Shovel apps, Inc.",
+    "email": "info@shovelapps.com"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.31.0"
+  }
+}
