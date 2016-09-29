@@ -42,7 +42,7 @@ import RNMercadopago from 'react-native-mercadopago';
     let publicKey = 'TEST-ad365c37-8012-4014-84f5-6c895b3f8e0a';
     let prefId = '176234066-fc6d5d5e-2671-4073-ab49-362a98b720b5';
 
-    MercadoPagoPlugin.startCheckout([publicKey, prefId, null, false], (payment) => { this._success(payment)}, (error) => { this._failure(error) });
+    RNMercadopago.startCheckout([publicKey, prefId, null, false], (payment) => { this._success(payment)}, (error) => { this._failure(error) });
 ...
 ```
   
