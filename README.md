@@ -26,7 +26,19 @@
 
 #### Android
 
-Work in Progress
+1. Open up `android/app/src/main/java/[...]/MainApplication.java`
+  - Add `import com.shovelapps.rnmercadopago.RNMercadopagoPackage;` to the imports at the top of the file
+  - Add `new RNMercadopagoPackage()` to the list returned by the `getPackages()` method
+2. Append the following lines to `android/settings.gradle`:
+  	```
+  	include ':react-native-mercadopago'
+  	project(':react-native-mercadopago').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-mercadopago/android')
+  	```
+3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
+  	```
+      compile project(':react-native-mercadopago')
+  	```
+
 
 ## Usage
 ```javascript
