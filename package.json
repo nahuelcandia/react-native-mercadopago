@@ -13,6 +13,14 @@
     "email": "info@shovelapps.com"
   },
   "license": "MIT",
+  "homepage": "https://github.com/shovelapps/react-native-mercadopago",
+  "bugs": {
+    "url": "https://github.com/shovelapps/react-native-mercadopago/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shovelapps/react-native-mercadopago.git"
+  },
   "peerDependencies": {
     "react-native": "^0.31.0"
   }
