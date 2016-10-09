@@ -1,0 +1,6 @@
+framework module MPGoogleAnalytics {
+  umbrella header "MPGoogleAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}
