@@ -1,6 +1,6 @@
 {
   "name": "react-native-mercadopago",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "React Native wrapper for Mercadopago Cordova Plugin",
   "main": "index.js",
   "keywords": [
