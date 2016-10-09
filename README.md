@@ -10,7 +10,10 @@
 
 #### iOS
 
-1. In General Tab for your project add MercadoPagoSDK.framework to the Embedded Binaries
+1. Drag the files from /node_modules/react-native-mercadopago/ios/*.framework to the Frameworks group of your project
+2. In General Tab for your project add the new frameworks from previous step to the Embedded Binaries.
+3. In Build Settings, make sure that Embedded Content Contains Swift Code is YES.
+4. Set Enable Bitcode to NO.
 
 ### Manual installation
 
@@ -20,7 +23,10 @@
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-mercadopago` and add `RNMercadopago.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNMercadopago.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. In General Tab for your project add MercadoPagoSDK.framework to the Embedded Binaries.
+4. In General Tab for your project add the new frameworks from previous step to the Embedded Binaries.
+5. In Build Settings, make sure that Embedded Content Contains Swift Code is YES.
+6. Set Enable Bitcode to NO.
+
 
 #### Android
 
