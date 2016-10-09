@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNMercadopago.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMercadopago.m */; };
-		FE4D28081DA9E0ED00E6B5F0 /* MercadoPagoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D28051DA9E0ED00E6B5F0 /* MercadoPagoSDK.framework */; };
-		FE4D28091DA9E0ED00E6B5F0 /* MercadoPagoTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D28061DA9E0ED00E6B5F0 /* MercadoPagoTracker.framework */; };
-		FE4D280A1DA9E0ED00E6B5F0 /* MPGoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D28071DA9E0ED00E6B5F0 /* MPGoogleAnalytics.framework */; };
+		FE4D28641DA9F7D000E6B5F0 /* MercadoPagoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D28051DA9E0ED00E6B5F0 /* MercadoPagoSDK.framework */; };
+		FE4D28651DA9F7D000E6B5F0 /* MercadoPagoTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D28061DA9E0ED00E6B5F0 /* MercadoPagoTracker.framework */; };
+		FE4D28661DA9F7D000E6B5F0 /* MPGoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D28071DA9E0ED00E6B5F0 /* MPGoogleAnalytics.framework */; };
 		FE6FFDAC1D9D2C350097712A /* CDVCommandDelegateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6FFDA31D9D2C350097712A /* CDVCommandDelegateImpl.m */; };
 		FE6FFDAD1D9D2C350097712A /* CDVInvokedUrlCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6FFDA51D9D2C350097712A /* CDVInvokedUrlCommand.m */; };
 		FE6FFDAE1D9D2C350097712A /* CDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6FFDA71D9D2C350097712A /* CDVPlugin.m */; };
@@ -54,9 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE4D28091DA9E0ED00E6B5F0 /* MercadoPagoTracker.framework in Frameworks */,
-				FE4D280A1DA9E0ED00E6B5F0 /* MPGoogleAnalytics.framework in Frameworks */,
-				FE4D28081DA9E0ED00E6B5F0 /* MercadoPagoSDK.framework in Frameworks */,
+				FE4D28641DA9F7D000E6B5F0 /* MercadoPagoSDK.framework in Frameworks */,
+				FE4D28651DA9F7D000E6B5F0 /* MercadoPagoTracker.framework in Frameworks */,
+				FE4D28661DA9F7D000E6B5F0 /* MPGoogleAnalytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
