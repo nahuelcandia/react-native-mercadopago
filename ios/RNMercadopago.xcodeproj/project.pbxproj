@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNMercadopago.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMercadopago.m */; };
+		FE4D28081DA9E0ED00E6B5F0 /* MercadoPagoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D28051DA9E0ED00E6B5F0 /* MercadoPagoSDK.framework */; };
+		FE4D28091DA9E0ED00E6B5F0 /* MercadoPagoTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D28061DA9E0ED00E6B5F0 /* MercadoPagoTracker.framework */; };
+		FE4D280A1DA9E0ED00E6B5F0 /* MPGoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D28071DA9E0ED00E6B5F0 /* MPGoogleAnalytics.framework */; };
 		FE6FFDAC1D9D2C350097712A /* CDVCommandDelegateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6FFDA31D9D2C350097712A /* CDVCommandDelegateImpl.m */; };
 		FE6FFDAD1D9D2C350097712A /* CDVInvokedUrlCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6FFDA51D9D2C350097712A /* CDVInvokedUrlCommand.m */; };
 		FE6FFDAE1D9D2C350097712A /* CDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6FFDA71D9D2C350097712A /* CDVPlugin.m */; };
 		FE6FFDAF1D9D2C350097712A /* CDVPluginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6FFDA91D9D2C350097712A /* CDVPluginResult.m */; };
 		FE6FFDB01D9D2C350097712A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6FFDAB1D9D2C350097712A /* NSData+Base64.m */; };
-		FE6FFDB31D9D2CF20097712A /* MercadoPagoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6FFDB21D9D2CF20097712A /* MercadoPagoSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +34,9 @@
 		134814201AA4EA6300B7C361 /* libRNMercadopago.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMercadopago.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNMercadopago.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMercadopago.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNMercadopago.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMercadopago.m; sourceTree = "<group>"; };
+		FE4D28051DA9E0ED00E6B5F0 /* MercadoPagoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MercadoPagoSDK.framework; sourceTree = "<group>"; };
+		FE4D28061DA9E0ED00E6B5F0 /* MercadoPagoTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MercadoPagoTracker.framework; sourceTree = "<group>"; };
+		FE4D28071DA9E0ED00E6B5F0 /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPGoogleAnalytics.framework; sourceTree = "<group>"; };
 		FE6FFDA21D9D2C350097712A /* CDVCommandDelegateImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegateImpl.h; sourceTree = "<group>"; };
 		FE6FFDA31D9D2C350097712A /* CDVCommandDelegateImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCommandDelegateImpl.m; sourceTree = "<group>"; };
 		FE6FFDA41D9D2C350097712A /* CDVInvokedUrlCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVInvokedUrlCommand.h; sourceTree = "<group>"; };
@@ -42,7 +47,6 @@
 		FE6FFDA91D9D2C350097712A /* CDVPluginResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVPluginResult.m; sourceTree = "<group>"; };
 		FE6FFDAA1D9D2C350097712A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		FE6FFDAB1D9D2C350097712A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		FE6FFDB21D9D2CF20097712A /* MercadoPagoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MercadoPagoSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE6FFDB31D9D2CF20097712A /* MercadoPagoSDK.framework in Frameworks */,
+				FE4D28091DA9E0ED00E6B5F0 /* MercadoPagoTracker.framework in Frameworks */,
+				FE4D280A1DA9E0ED00E6B5F0 /* MPGoogleAnalytics.framework in Frameworks */,
+				FE4D28081DA9E0ED00E6B5F0 /* MercadoPagoSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +102,9 @@
 		FE6FFDB11D9D2C930097712A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE6FFDB21D9D2CF20097712A /* MercadoPagoSDK.framework */,
+				FE4D28051DA9E0ED00E6B5F0 /* MercadoPagoSDK.framework */,
+				FE4D28061DA9E0ED00E6B5F0 /* MercadoPagoTracker.framework */,
+				FE4D28071DA9E0ED00E6B5F0 /* MPGoogleAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
