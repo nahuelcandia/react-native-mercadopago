@@ -47,11 +47,12 @@ import java.util.List;
 import com.facebook.react.bridge.*;
 
 
-public class RNMercadopagoModule extends ReactContextBaseJavaModule {
+public class RNMercadopagoModule extends ReactContextBaseJavaModule implements ActivityEventListener {
     private CallbackContext callback = null;
 
     public RNMercadopagoModule(ReactApplicationContext reactContext) {
         super(reactContext);
+        reactContext.addActivityEventListener(this);
     }
 
     @Override
@@ -597,8 +598,9 @@ public class RNMercadopagoModule extends ReactContextBaseJavaModule {
             }
         }
     }
-    
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+    @Override
+    public void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
         if(requestCode == MercadoPago.PAYMENT_VAULT_REQUEST_CODE) {
             if (resultCode == Activity.RESULT_OK) {
                 PaymentMethod mppaymentMethod = JsonUtil.getInstance().fromJson(data.getStringExtra("paymentMethod"), PaymentMethod.class);
