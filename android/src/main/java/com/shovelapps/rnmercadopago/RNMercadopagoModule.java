@@ -60,6 +60,11 @@ public class RNMercadopagoModule extends ReactContextBaseJavaModule implements A
             return "RNMercadopago";
      }
 
+    @Override
+    public void onNewIntent(Intent intent) {
+
+    }
+
     @ReactMethod
      public void startCheckout(ReadableArray args, com.facebook.react.bridge.Callback success, com.facebook.react.bridge.Callback error) {
             String action = "startCheckout";
