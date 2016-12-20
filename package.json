@@ -22,6 +22,6 @@
     "url": "git://github.com/shovelapps/react-native-mercadopago.git"
   },
   "peerDependencies": {
-    "react-native": "^0.31.0"
+    "react-native": "^0.39.0"
   }
 }
