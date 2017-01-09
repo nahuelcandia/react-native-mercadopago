@@ -54,40 +54,41 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
 }
 - (void)startCheckout:(CDVInvokedUrlCommand*)command
 {
-    NSString* callbackId = [command callbackId];
-    NSString* publicKey = [[command arguments] objectAtIndex:0];
-    NSString* prefId = [[command arguments] objectAtIndex:1];
-    
-    [MercadoPagoContext setPublicKey:publicKey];
-    
-    if ([[command arguments] objectAtIndex:2]!= (id)[NSNull null]){
-        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:2] alpha:1];
-        [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
-    } else {
-        UIColor *color = [UIColor colorwithHexString:MERCADO_PAGO_BASE_COLOR alpha:1];
-        [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
-    }
-    if ([[[command arguments] objectAtIndex:3]boolValue]){
-        [MercadoPagoContext setDarkTextColor];
-    }else {
-        [MercadoPagoContext setLightTextColor];
-    }
-    
-    UINavigationController *choFlow =[MPFlowBuilder startCheckoutViewController:prefId callback:^(Payment *payment) {
-        NSString *mppayment = [payment toJSONString];
-        
-        CDVPluginResult* result = [CDVPluginResult
-                                   resultWithStatus:CDVCommandStatus_OK
-                                   messageAsString:mppayment];
-        
-        [self.commandDelegate sendPluginResult:result callbackId:callbackId];
-        
-    }callbackCancel:nil];
-    
-    UIViewController *rootViewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
-    
-    [rootViewController presentViewController:choFlow animated:YES completion:^{}];
-    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSString* callbackId = [command callbackId];
+        NSString* publicKey = [[command arguments] objectAtIndex:0];
+        NSString* prefId = [[command arguments] objectAtIndex:1];
+
+        [MercadoPagoContext setPublicKey:publicKey];
+
+        if ([[command arguments] objectAtIndex:2]!= (id)[NSNull null]){
+            UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:2] alpha:1];
+            [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
+        } else {
+            UIColor *color = [UIColor colorwithHexString:MERCADO_PAGO_BASE_COLOR alpha:1];
+            [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
+        }
+        if ([[[command arguments] objectAtIndex:3]boolValue]){
+            [MercadoPagoContext setDarkTextColor];
+        }else {
+            [MercadoPagoContext setLightTextColor];
+        }
+
+        UINavigationController *choFlow =[MPFlowBuilder startCheckoutViewController:prefId callback:^(Payment *payment) {
+            NSString *mppayment = [payment toJSONString];
+
+            CDVPluginResult* result = [CDVPluginResult
+                                       resultWithStatus:CDVCommandStatus_OK
+                                       messageAsString:mppayment];
+
+            [self.commandDelegate sendPluginResult:result callbackId:callbackId];
+
+        }callbackCancel:nil];
+
+        UIViewController *rootViewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
+
+        [rootViewController presentViewController:choFlow animated:YES completion:^{}];
+    });
 }
 - (void)getPaymentMethods:(CDVInvokedUrlCommand*)command
 {
