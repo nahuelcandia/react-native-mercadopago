@@ -54,14 +54,14 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
 }
 - (void)startCheckout:(CDVInvokedUrlCommand*)command
 {
-    CDVInvokedUrlCommand* callbackId = command.callbackId;
+    NSString* callbackId = [command callbackId];
     NSString* publicKey = [[command arguments] objectAtIndex:0];
     NSString* prefId = [[command arguments] objectAtIndex:1];
     
     [MercadoPagoContext setPublicKey:publicKey];
     
     if ([[command arguments] objectAtIndex:2]!= (id)[NSNull null]){
-        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:2] alpha:.9];
+        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:2] alpha:1];
         [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
     } else {
         UIColor *color = [UIColor colorwithHexString:MERCADO_PAGO_BASE_COLOR alpha:1];
@@ -230,7 +230,7 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     int quantity = [[[command arguments] objectAtIndex:2]intValue];
     double price = [[[command arguments] objectAtIndex:3]doubleValue];
     
-    Item *item = [[Item alloc]initWith_id:[[command arguments] objectAtIndex:1] title:@"title" quantity:quantity unitPrice: price];
+    Item *item = [[Item alloc]initWith_id:[[command arguments] objectAtIndex:1] title:nil quantity:quantity unitPrice: price description:nil];
     
     Issuer *is =[[ Issuer alloc]init];
     is._id = [[NSNumber alloc] initWithInt:[[command arguments] objectAtIndex:10]];
@@ -264,7 +264,7 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     [MercadoPagoContext setSiteID:[self getSiteID:[[command arguments] objectAtIndex:1]]];
     
     if ([[command arguments] objectAtIndex:3]!= (id)[NSNull null]){
-        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:3] alpha:.9];
+        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:3] alpha:1];
         [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
     } else {
         UIColor *color = [UIColor colorwithHexString:MERCADO_PAGO_BASE_COLOR alpha:1];
@@ -275,18 +275,21 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     }else {
         [MercadoPagoContext setLightTextColor];
     }
+    PaymentPreference *paymentPreference = [[PaymentPreference alloc]init];
     
-    NSData *data = [[[command arguments] objectAtIndex:5] dataUsingEncoding:NSUTF8StringEncoding];
-    id paymentPrefJson = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-    PaymentPreference *pp = [PaymentPreference fromJSON:paymentPrefJson];
+    if([[command arguments] objectAtIndex:5]!= (id)[NSNull null]){
+        NSData *data = [[[command arguments] objectAtIndex:5] dataUsingEncoding:NSUTF8StringEncoding];
+        id paymentPrefJson = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+        paymentPreference = [PaymentPreference fromJSON:paymentPrefJson];
+    }
     
-    UINavigationController *paymentFlow = [MPFlowBuilder startPaymentVaultViewController:[[[command arguments] objectAtIndex:2]doubleValue] paymentPreference:pp callback:^(PaymentMethod * paymentMethod, Token * token, Issuer * issuer, PayerCost * payerCost) {
+    UINavigationController *paymentFlow = [MPFlowBuilder startPaymentVaultViewController:[[[command arguments] objectAtIndex:2]doubleValue] paymentPreference:paymentPreference callback:^(PaymentMethod * paymentMethod, Token * token, Issuer * issuer, PayerCost * payerCost) {
         
         NSString *jsonPaymentMethod = [paymentMethod toJSONString];
         
         
         NSMutableDictionary *mpResponse = [[NSMutableDictionary alloc] init];
-        [mpResponse setObject:jsonPaymentMethod forKey:@"payment_methods"];
+        [mpResponse setObject:jsonPaymentMethod forKey:@"payment_method"];
         
         
         if (payerCost != nil && issuer != nil && token != nil){
@@ -320,7 +323,7 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     [MercadoPagoContext setSiteID:[self getSiteID:[[command arguments] objectAtIndex:1]]];
     
     if ([[command arguments] objectAtIndex:3]!= (id)[NSNull null]){
-        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:3] alpha:.9];
+        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:3] alpha:1];
         [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
     } else {
         UIColor *color = [UIColor colorwithHexString:MERCADO_PAGO_BASE_COLOR alpha:1];
@@ -331,20 +334,25 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     }else {
         [MercadoPagoContext setLightTextColor];
     }
+    PaymentPreference *paymentPreference = [[PaymentPreference alloc]init];
+    
+    if([[command arguments] objectAtIndex:5]!= (id)[NSNull null]){
+        NSData *data = [[[command arguments] objectAtIndex:5] dataUsingEncoding:NSUTF8StringEncoding];
+        id paymentPrefJson = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+        paymentPreference = [PaymentPreference fromJSON:paymentPrefJson];
+    }
     
     UIViewController *rootViewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
     
-    NSData *data = [[[command arguments] objectAtIndex:5] dataUsingEncoding:NSUTF8StringEncoding];
-    id paymentPrefJson = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-    PaymentPreference *paymentPref = [PaymentPreference fromJSON:paymentPrefJson];
     
-    UINavigationController *choFlow = [MPFlowBuilder startCardFlow:paymentPref amount:[[[command arguments] objectAtIndex:2]doubleValue] paymentMethods:nil token:nil callback:^(PaymentMethod * paymentMethod, Token * token, Issuer * issuer, PayerCost * payerCost) {
+    
+    UINavigationController *choFlow = [MPFlowBuilder startCardFlow:paymentPreference amount:[[[command arguments] objectAtIndex:2]doubleValue] cardInformation:nil paymentMethods:nil token:nil timer:nil callback:^(PaymentMethod * paymentMethod, Token * token, Issuer * issuer, PayerCost * payerCost) {
         
         NSString *jsonPaymentMethod = [paymentMethod toJSONString];
         NSString *jsonToken = [token toJSONString];
         
         NSMutableDictionary *mpResponse = [[NSMutableDictionary alloc] init];
-        [mpResponse setObject:jsonPaymentMethod forKey:@"payment_methods"];
+        [mpResponse setObject:jsonPaymentMethod forKey:@"payment_method"];
         [mpResponse setObject:jsonToken forKey:@"token"];
         
         if (payerCost != nil && issuer != nil ){
@@ -378,7 +386,7 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     NSString* callbackId = [command callbackId];
     
     if ([[command arguments] objectAtIndex:1]!= (id)[NSNull null]){
-        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:1] alpha:.9];
+        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:1] alpha:1];
         [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
     } else {
         UIColor *color = [UIColor colorwithHexString:MERCADO_PAGO_BASE_COLOR alpha:1];
@@ -391,17 +399,23 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     }
     
     UIViewController *rootViewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
-    NSData *data = [[[command arguments] objectAtIndex:3] dataUsingEncoding:NSUTF8StringEncoding];
-    id paymentPrefJson = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-    PaymentPreference *paymentPref = [PaymentPreference fromJSON:paymentPrefJson];
     
-    UINavigationController *choFlow = [MPStepBuilder startCreditCardForm:paymentPref amount:100.0 paymentMethods:nil token:nil callback:^(PaymentMethod * paymentMethod, Token * token, Issuer * issuer) {
+    
+    PaymentPreference *paymentPreference = [[PaymentPreference alloc]init];
+    
+    if([[command arguments] objectAtIndex:3]!= (id)[NSNull null]){
+        NSData *data = [[[command arguments] objectAtIndex:3] dataUsingEncoding:NSUTF8StringEncoding];
+        id paymentPrefJson = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+        paymentPreference = [PaymentPreference fromJSON:paymentPrefJson];
+    }
+    
+    UINavigationController *choFlow = [MPStepBuilder startCreditCardForm:paymentPreference amount:100.0 cardInformation:nil paymentMethods:nil token:nil timer:nil callback:^(PaymentMethod * paymentMethod, Token * token, Issuer * issuer) {
         
         NSString *jsonPaymentMethod = [paymentMethod toJSONString];
         NSString *jsonToken = [token toJSONString];
         
         NSMutableDictionary *mpResponse = [[NSMutableDictionary alloc] init];
-        [mpResponse setObject:jsonPaymentMethod forKey:@"payment_methods"];
+        [mpResponse setObject:jsonPaymentMethod forKey:@"payment_method"];
         [mpResponse setObject:jsonToken forKey:@"token"];
         
         if (issuer != nil ){
@@ -432,7 +446,7 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     NSString* callbackId = [command callbackId];
     
     if ([[command arguments] objectAtIndex:1]!= (id)[NSNull null]){
-        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:1] alpha:.9];
+        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:1] alpha:1];
         [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
     } else {
         UIColor *color = [UIColor colorwithHexString:MERCADO_PAGO_BASE_COLOR alpha:1];
@@ -446,12 +460,15 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     
     UIViewController *rootViewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
     if ([[command arguments] objectAtIndex:3] != (id)[NSNull null]){
+        PaymentPreference *paymentPreference = [[PaymentPreference alloc]init];
         
-        NSData *data = [[[command arguments] objectAtIndex:3] dataUsingEncoding:NSUTF8StringEncoding];
-        id paymentPrefJson = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-        PaymentPreference *paymentPref = [PaymentPreference fromJSON:paymentPrefJson];
+        if([[command arguments] objectAtIndex:3]!= (id)[NSNull null]){
+            NSData *data = [[[command arguments] objectAtIndex:3] dataUsingEncoding:NSUTF8StringEncoding];
+            id paymentPrefJson = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+            paymentPreference = [PaymentPreference fromJSON:paymentPrefJson];
+        }
         
-        MercadoPagoUIViewController *viewPaymentMethods = [MPStepBuilder startPaymentMethodsStepWithPreference:paymentPref callback:^(PaymentMethod *paymentMethod) {
+        MercadoPagoUIViewController *viewPaymentMethods = [MPStepBuilder startPaymentMethodsStepWithPreference:paymentPreference callback:^(PaymentMethod *paymentMethod) {
             CDVPluginResult* result = [CDVPluginResult
                                        resultWithStatus:CDVCommandStatus_OK
                                        messageAsString: [paymentMethod toJSONString]];
@@ -489,7 +506,7 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     NSString* callbackId = [command callbackId];
     
     if ([[command arguments] objectAtIndex:2]!= (id)[NSNull null]){
-        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:2] alpha:.9];
+        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:2] alpha:1];
         [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
     } else {
         UIColor *color = [UIColor colorwithHexString:MERCADO_PAGO_BASE_COLOR alpha:1];
@@ -531,7 +548,7 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     [MercadoPagoContext setSiteID:[self getSiteID:[[command arguments] objectAtIndex:1]]];
     
     if ([[command arguments] objectAtIndex:5]!= (id)[NSNull null]){
-        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:5] alpha:.9];
+        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:5] alpha:1];
         [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
     } else {
         UIColor *color = [UIColor colorwithHexString:MERCADO_PAGO_BASE_COLOR alpha:1];
@@ -548,11 +565,15 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     Issuer *issuer =[[Issuer alloc]init];
     issuer._id=[[NSNumber alloc] initWithInt:[[command arguments] objectAtIndex:4]];
     
-    NSData *data = [[[command arguments] objectAtIndex:7] dataUsingEncoding:NSUTF8StringEncoding];
-    id paymentPrefJson = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-    PaymentPreference *paymentPref = [PaymentPreference fromJSON:paymentPrefJson];
+    PaymentPreference *paymentPreference = [[PaymentPreference alloc]init];
     
-    MercadoPagoUIViewController *navInstallments = [MPStepBuilder startInstallmentsStep:nil paymentPreference:paymentPref amount:[[[command arguments] objectAtIndex:2]doubleValue] issuer:issuer paymentMethodId:[[command arguments] objectAtIndex:3] callback:^(PayerCost * payerCost) {
+    if([[command arguments] objectAtIndex:7]!= (id)[NSNull null]){
+        NSData *data = [[[command arguments] objectAtIndex:7] dataUsingEncoding:NSUTF8StringEncoding];
+        id paymentPrefJson = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+        paymentPreference = [PaymentPreference fromJSON:paymentPrefJson];
+    }
+    
+    MercadoPagoUIViewController *navInstallments = [MPStepBuilder startInstallmentsStep:nil paymentPreference:paymentPreference amount:[[[command arguments] objectAtIndex:2]doubleValue] issuer:issuer paymentMethodId:[[command arguments] objectAtIndex:3] callback:^(PayerCost * payerCost) {
         
         CDVPluginResult* result = [CDVPluginResult
                                    resultWithStatus:CDVCommandStatus_OK
@@ -575,7 +596,7 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     NSString* callbackId = [command callbackId];
     
     if ([[command arguments] objectAtIndex:1]!= (id)[NSNull null]){
-        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:1] alpha:.9];
+        UIColor *color = [UIColor colorwithHexString:[[command arguments] objectAtIndex:1] alpha:1];
         [MercadoPagoContext setupPrimaryColor:color complementaryColor:nil];
     } else {
         UIColor *color = [UIColor colorwithHexString:MERCADO_PAGO_BASE_COLOR alpha:1];
@@ -607,18 +628,20 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
     id json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
     
     Payment *payment = [Payment fromJSON:json];
+    data = [[[command arguments] objectAtIndex:2] dataUsingEncoding:NSUTF8StringEncoding];
+    json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+    PaymentMethod *paymentMethod = [PaymentMethod fromJSON:json];
     
-    UINavigationController *navInstructions = [MPStepBuilder startInstructionsStep:payment paymentTypeId:@"ticket" callback:^(Payment *  payment, enum CongratsState status) {
-        
+    UINavigationController *navPaymentResult = [MPStepBuilder startPaymentResultStep:payment paymentMethod:paymentMethod callback:^(Payment * _Nonnull payment, enum CongratsState status) {
         [rootViewController dismissViewControllerAnimated:YES completion:^{}];
     }];
     
-    [rootViewController presentViewController:navInstructions animated:YES completion:^{}];
+    [rootViewController presentViewController:navPaymentResult animated:YES completion:^{}];
 }
 
 -(void) showInNavigationController:(UIViewController *)viewControllerBase{
     
-    MPNavigationController *navCon = [[MPNavigationController alloc]initWithRootViewController:viewControllerBase];
+    UINavigationController *navCon = [[UINavigationController alloc]initWithRootViewController:viewControllerBase];
     UIViewController *rootViewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
     [rootViewController presentViewController:navCon animated:YES completion:^{}];
     
@@ -647,8 +670,10 @@ RCT_EXPORT_CORDOVA_METHOD(startCheckout);
         return @"MLB";
     } else if ([[site uppercaseString] isEqual: @"USA"]){
         return @"USA";
-    } else {
+    } else if ([[site uppercaseString] isEqual: @"VENEZUELA"]){
         return @"MLV";
+    } else {
+        return @"MLA";
     }
 }
 @end

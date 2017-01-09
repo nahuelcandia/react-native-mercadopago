@@ -6,227 +6,247 @@
 	<dict>
 		<key>ApprovedPaymentBodyTableViewCell.nib</key>
 		<data>
-		fFwBRW144SOrag6RS+zjxM11I9o=
+		d8vxvOruA/UPsPRoz557NPgkh2U=
 		</data>
 		<key>ApprovedPaymentHeaderTableViewCell.nib</key>
 		<data>
-		f2Z+Ph7jmTRAZZaPRjpKaqPoHZg=
+		mX8+MHya9OQJm+ShJ8FlyE/6tFo=
+		</data>
+		<key>ApprovedTableViewCell.nib</key>
+		<data>
+		ilrmv5zSI/aGjAy3fXTXK4Ny4Ao=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		csmLma7Oy4Trm75HQPI+/iEYleo=
+		DjFq+JR6kxSZ5YNnuOiIoaDbKJ8=
 		</data>
 		<key>AuthorizePaymentBodyTableViewCell.nib</key>
 		<data>
-		vmvlqNk1hmDw9LoJDHRmhQFL724=
+		8Ccx9LLk5kEGV/RRO87z7T9qw2M=
 		</data>
 		<key>AuthorizePaymentHeaderTableViewCell.nib</key>
 		<data>
-		BjGmdygBET/xuIYWwSyJAX8cb64=
+		ZIlsXW9c5oaXegeNwhQ9pIPiZjQ=
+		</data>
+		<key>CallForAuthTableViewCell.nib</key>
+		<data>
+		vURaos3bgAMYzJY9kTQFXIXv4OQ=
+		</data>
+		<key>CardAdditionalStep.nib</key>
+		<data>
+		BjqnOMJxnaC094SdGb/OUxcrWNM=
 		</data>
 		<key>CardBackView.nib</key>
 		<data>
-		Gm7J9Jf2AgfIhoA4GXF4GwyfKZs=
+		wEuq+93jpXIux70J+dc4b+IEGV8=
 		</data>
 		<key>CardFormViewController.nib</key>
 		<data>
-		OX06zQzBwka1rkoCJOFW8GEgUjU=
+		Ph3sy3Uh4+9hqe/FtwNWMSYXBvc=
 		</data>
 		<key>CardFrontView.nib</key>
 		<data>
-		vWE3eAxC4sCDcthKuIZaRTM5Fjo=
+		pSB2Ik53G2b2w4hCk5tjUFFQ90A=
+		</data>
+		<key>CardTypeTableViewCell.nib</key>
+		<data>
+		WRZkwMF5nhEnfBJHDtfqSkpCPCs=
 		</data>
 		<key>CheckoutViewController.nib</key>
 		<data>
-		eAr9GFaseqeKa5jiJEIcKk8Pgqg=
+		rKC24h7Nex0eU32vq3DfrmmWqSw=
+		</data>
+		<key>ConfirmEmailTableViewCell.nib</key>
+		<data>
+		U0Eusjzf5YhCiE4kmP8XRGq3pAM=
+		</data>
+		<key>ConfirmPaymentTableViewCell.nib</key>
+		<data>
+		xYcFZACAPdll/mqn6cMeX0Mc4/c=
 		</data>
 		<key>CongratsPaymentMethodTableViewCell.nib</key>
 		<data>
-		e+p91/ZZgFurYOygdgn0IeykkGE=
+		1/PqnXgxN+B87qq00Nf3BN7muuY=
+		</data>
+		<key>CongratsRevampViewController.nib</key>
+		<data>
+		vB4ADdUlGEfqAnpSirE52/Gz5+0=
 		</data>
 		<key>CongratsViewController.nib</key>
 		<data>
-		a0ZAeK0OnSTlQjhsaRQiKiYM1bY=
+		pA03uIWBUuo3LEa3dQsE3OWKmAI=
 		</data>
 		<key>CustomerCardsViewController.nib</key>
 		<data>
-		a0FNbm7Z/94JXsAApJOfi3a4r6A=
+		yZ3QpXsVL0EO6A4iMCde/CmPfBs=
+		</data>
+		<key>CustomerPaymentMethodCell.nib</key>
+		<data>
+		cw4qYYqA+WaqOulAwJ6naIW2WAc=
 		</data>
 		<key>DefaultInstructionsFooterViewCell.nib</key>
 		<data>
-		nqhs/8OpIO4cTIYOfeYpHBKAhao=
+		CfbDLAA+igfxe8B3GXX5USntPko=
 		</data>
 		<key>ErrorViewController.nib</key>
 		<data>
-		WvyoV7Z0sZLuiigt12Mz64f0wO8=
+		tJkUrw+9PMGyGLAOa5WJ8vadpgk=
 		</data>
 		<key>ExitButtonTableViewCell.nib</key>
 		<data>
-		3b3EDcRcPzptNkEv+Ww3gGtPDnk=
+		Ej4XdPUn+9MF2hEeQs0ePSYbpdw=
 		</data>
-		<key>Frameworks/libswiftContacts.dylib</key>
+		<key>FooterTableViewCell.nib</key>
 		<data>
-		I3HCKdCWFd35Up7xDWRhyVWv4Jw=
+		nU8/apsGa4en7gmb6xB7i4Nxz5s=
 		</data>
-		<key>Frameworks/libswiftCore.dylib</key>
+		<key>HeaderCongratsTableViewCell.nib</key>
 		<data>
-		J4HYITsO7VVzrlrXFZPZk62XaVQ=
+		6XLk/4Z0Hsv8n5S8E9B8EBKR+g8=
 		</data>
-		<key>Frameworks/libswiftCoreGraphics.dylib</key>
+		<key>Headers/MPSDKLoadingView.h</key>
 		<data>
-		k5nv6X6tI+LuczHJIRumbY0PqcA=
-		</data>
-		<key>Frameworks/libswiftCoreImage.dylib</key>
-		<data>
-		gOzTwQLoF77Nn7GXxvZe1R6RPkk=
-		</data>
-		<key>Frameworks/libswiftDarwin.dylib</key>
-		<data>
-		uqpkKPeNSwk39GZnvaWVH45mHGo=
-		</data>
-		<key>Frameworks/libswiftDispatch.dylib</key>
-		<data>
-		1UqjfPUw/QdtXnHVahCB/ZEdois=
-		</data>
-		<key>Frameworks/libswiftFoundation.dylib</key>
-		<data>
-		0MkFuYppQzEDPyLnHu8oQ11YIfo=
-		</data>
-		<key>Frameworks/libswiftObjectiveC.dylib</key>
-		<data>
-		NewJEpFg9MEbM4EXRFaVZnFOvX0=
-		</data>
-		<key>Frameworks/libswiftUIKit.dylib</key>
-		<data>
-		jweW+tO/KjrWrJ3sX9cnuP47TFM=
+		JgFZgVtnLQKoAtPYQYmsgQ6nL4A=
 		</data>
 		<key>Headers/MercadoPagoSDK-Swift.h</key>
 		<data>
-		KdW096GtFsibwi8Ut3s+LidcxTI=
+		fKbBXED5V1LvRRJj+Eel7ed+010=
 		</data>
 		<key>Headers/MercadoPagoSDK.h</key>
 		<data>
-		Y8UQT4/5WgMOLz1QvSz/T14Z/NM=
+		lfIwoxLiSxfzR9ZxAQFn0PkU/6M=
+		</data>
+		<key>Headers/UIView+RotateView.h</key>
+		<data>
+		ourqfwYbj1dXiT3OpYNA9/sFw0k=
 		</data>
 		<key>IdentificationCardView.nib</key>
 		<data>
-		qRqiTqddVpgds3Up28COeP/ZdWs=
+		IojQ05hVCJFqEp1DUHtT3a5ISPY=
 		</data>
 		<key>IdentificationViewController.nib</key>
 		<data>
-		7mtFCK5RVpZjSXbt1BA+05jC18g=
+		3oRo7e0B8jlHwnI/D4dTD0w16tk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ns/Ks2YHG8adau42M/+PaZqHP68=
+		IjW2ywaJVkSu6y3trbwR0NxfvKg=
 		</data>
 		<key>InstallmentSelectionTableViewCell.nib</key>
 		<data>
-		wd60AxMgSaghBemDIVXhzI4omyw=
+		SPJUhX2Tdw4Sd2GSkYrlhtXxNZ8=
 		</data>
 		<key>InstallmentTableViewCell.nib</key>
 		<data>
-		Ky42+pyZLBt9sl1K/wzdhdwiyrk=
+		BDJEYyVe671omGtPsosPC5ajeUY=
 		</data>
 		<key>InstallmentsViewController.nib</key>
 		<data>
-		YNCLo5Xt+NPvTvHHdau6mn/te78=
+		WR4Ilqjeb6N9FvrWF93WWtBvkwc=
+		</data>
+		<key>InstructionBodyTableViewCell.nib</key>
+		<data>
+		hCrk3IT3JdmT3AgHUqD2p/H9lew=
 		</data>
 		<key>InstructionsAtmViewCell.nib</key>
 		<data>
-		CThRTAD6OCBM75WuInStX4VHpuY=
+		9rMBlmqjLC+HkHAUAvFh2+w5SNQ=
 		</data>
 		<key>InstructionsFooterWithSecondaryInfoViewCell.nib</key>
 		<data>
-		VW83YZKb+KdeDxHucVacMdWz7Y0=
+		LhzywaOyf8uPVEUb0+gsZ3o/sfw=
 		</data>
 		<key>InstructionsFooterWithTertiaryInfoViewCell.nib</key>
 		<data>
-		tuyg1i4Jcjv4PkpQ/YWxGCL1/eo=
+		z5UBDzT0bhYtdPcYdmzLkAAjNPE=
 		</data>
 		<key>InstructionsHeaderViewCell.nib</key>
 		<data>
-		988ccQn/zQc+TaaJROeBf6eXszM=
+		zdpS09gAzLvy/OsT+TqH2IVlSPQ=
+		</data>
+		<key>InstructionsRevampViewController.nib</key>
+		<data>
+		HqTJlSZDqVqymcljd7L4yxiJJJw=
+		</data>
+		<key>InstructionsSubtitleTableViewCell.nib</key>
+		<data>
+		6gQMjP5Mo/2SZ3kcT4G+8O21K5s=
 		</data>
 		<key>InstructionsTwoLabelsAndButtonViewCell.nib</key>
 		<data>
-		HRDwcou+5KGcWtqsbnFXu3XzBYk=
+		+6Y5eo8X04BckIfcc6S8L+w4dWI=
 		</data>
 		<key>InstructionsTwoLabelsViewCell.nib</key>
 		<data>
-		/yGM8ZDEOwwKw4nJQGwW5oBXv2o=
+		UIaT5fQffnvJVnpSFPCpIrdIE8s=
 		</data>
 		<key>InstructionsViewCell.nib</key>
 		<data>
-		MyP0vgZxEdM6kaIBLDqi2DWxGBw=
+		G32Gnh4Pif91DyrI9qDxhHgQquo=
 		</data>
 		<key>InstructionsViewController.nib</key>
 		<data>
-		Cxp5nljtZln0hRwhqpgQaHgVAKk=
+		BPEJ/TFWjpi/G7oAipAZJ4Q7aa8=
 		</data>
 		<key>InstructionsWithButtonViewCell.nib</key>
 		<data>
-		NYtXWV1K0GNoL34laLrKwcdqD1U=
+		WzOeIZfZK5HfVdE02WY0Vyie5uM=
 		</data>
 		<key>IssuerCardViewController.nib</key>
 		<data>
-		cNv6cxo5Fmc6EaMyou8dUqkffIA=
+		2aPBPSbKpexNOGQPrgJ0ZfZvHMo=
+		</data>
+		<key>IssuerRowTableViewCell.nib</key>
+		<data>
+		CIhq7MoGxLtlZK6Qc/L+LCpgZhA=
 		</data>
 		<key>IssuerTableViewCell.nib</key>
 		<data>
-		AVYUsq+agbmBdQ1HXzz2Nj4y3WQ=
+		y9FAQguRoqXw2l9e4MUQ6wWoS/A=
 		</data>
 		<key>IssuersViewController.nib</key>
 		<data>
-		RnZnXedMubGiyUNdY14lColMZQA=
+		vbE34Qh9QBfcEt03I+GGy7QWPls=
 		</data>
 		<key>MPCardNumberTableViewCell.nib</key>
 		<data>
-		jVcArgY4Ev7ykTe76nvYda9c+K4=
+		h5EOdM8DEgAuSNzqTueR4yIRL40=
 		</data>
 		<key>MPCardholderNameTableViewCell.nib</key>
 		<data>
-		IJT/su67pVOdZWMMUw9T7Obbn9A=
+		gWqvfTV0GoaujTqAIEkM+iBkU2E=
 		</data>
 		<key>MPExpirationDateTableViewCell.nib</key>
 		<data>
-		FXuVwqctoXgdmhBRb6vuTY9jFI8=
+		V+/Ot+iT1VHMiPqgQb0gJ5lYOtc=
 		</data>
 		<key>MPInstallmentsTableViewCell.nib</key>
 		<data>
-		6bD1brC7hmohBJeKW5gqRWVCnv8=
+		hi3zF/Ef5Xb7qEUeCdcPgUx7aYw=
 		</data>
 		<key>MPPaymentMethodEmptyTableViewCell.nib</key>
 		<data>
-		/7F8RwX0jQgrFIujYf4ZBM/eFGg=
+		S5Nl1dBvqskgtoKYI5FOoNWKqdw=
 		</data>
 		<key>MPPaymentMethodTableViewCell.nib</key>
 		<data>
-		r/v+9D6fmVu8m/EIpFM0Wdtpm/o=
+		PjXqUmxTY8MRN/kvgdmQvw3INf8=
 		</data>
 		<key>MPSecurityCodeTableViewCell.nib</key>
 		<data>
-		C+YDP+ZZJt9Qk//kdxgpf19Ti2k=
+		gFjEW9I5MSJkmGuHQCRB266ZHEs=
 		</data>
 		<key>MPUserIdTableViewCell.nib</key>
 		<data>
-		eUPj2jN0YWTV1lkhmB8NQVVnJWQ=
+		pO6gfnSjLKftJ+dv4tf96CKWrp4=
 		</data>
-		<key>Modules/MercadoPagoSDK.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/MercadoPagoSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
-		VHHsWJXeN5VfqylZxlQ5j4nZ+6A=
+		PGUvh9nOSBt2j7qyI8LDxhsVKS0=
 		</data>
-		<key>Modules/MercadoPagoSDK.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/MercadoPagoSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		yErmwCX4N0uJA7iql5ymunMxM2c=
-		</data>
-		<key>Modules/MercadoPagoSDK.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		UG/q7CzHqyql4Xe9TmL2+odLCPw=
-		</data>
-		<key>Modules/MercadoPagoSDK.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		GKf6a6fc/SQxWZv1yUIwxemXrmI=
+		pbadwqBZ1AXI8dI0DNSPxCnFozc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -234,143 +254,179 @@
 		</data>
 		<key>NewCardViewController.nib</key>
 		<data>
-		O607aUdY//euJxw8BAvqxQ6TlvY=
+		/ItoZP8hLNnmoTtX688zw6Su9KI=
 		</data>
 		<key>OfflinePaymentMethodCell.nib</key>
 		<data>
-		20QulNkwBTFxrj6izo6V8Clxcms=
+		dA4ywZTJc+KN/mZnvNt2Ws0nEWI=
 		</data>
 		<key>OfflinePaymentMethodWithDescriptionCell.nib</key>
 		<data>
-		UGf6YBuxbUU7IxL4psbmZ4jfWAQ=
+		CiRsMGBA91e6UUWMdMBbB23FbF4=
+		</data>
+		<key>PayerCostCardTableViewCell.nib</key>
+		<data>
+		4jHas5V7lwCwi+nVjVdKtIL0Ams=
+		</data>
+		<key>PayerCostRowTableViewCell.nib</key>
+		<data>
+		QG0HqL2aTxABBDtsJ3cXnB249qo=
 		</data>
 		<key>PayerCostTableViewCell.nib</key>
 		<data>
-		Pmohb75s51LwUSQW8+OCYSHq+rs=
+		T8uGA60eCF0vIBoGuHX0CS8szVg=
+		</data>
+		<key>PayerCostTitleTableViewCell.nib</key>
+		<data>
+		NXZnAYat7lNNAjnbXOntSfQRwYI=
 		</data>
 		<key>PayerCostViewController.nib</key>
 		<data>
-		xOHNsKEg1rKcdWIja/ZYlcAQpEo=
+		bUgQGeH2xgLwxByOzH3lwMKLY1U=
 		</data>
 		<key>PaymentCongratsViewController.nib</key>
 		<data>
-		PdALv/DcclnCHinw0I8sUK6M654=
+		F3Bmj0qo3gdjVB+XmGjhmmirGzY=
 		</data>
 		<key>PaymentDateTableViewCell.nib</key>
 		<data>
-		Bii3ua1IOKzfPgnBft1iGtkf0tM=
-		</data>
-		<key>PaymentDescriptionFooterTableViewCell.nib</key>
-		<data>
-		26bfB3s6Za7qFCsGs4ULgL9+pz0=
+		fchloNdUhN6FWU9bbTTWo0LygNI=
 		</data>
 		<key>PaymentIDTableViewCell.nib</key>
 		<data>
-		lprbQ/1ODatYmENuyG+Qs7hq3/0=
+		UvLbf1DYiM5ALeLDdI+wtY69XfM=
 		</data>
 		<key>PaymentMethod.plist</key>
 		<data>
-		qchMQJq8u288KjdiNjuUKwIEGsI=
+		ztz7b53semAOR2f6iS9JCJTRX/A=
 		</data>
 		<key>PaymentMethodImageViewCell.nib</key>
 		<data>
-		IO8HyXytRcY4aT6OdzdB+gKvRCs=
+		temQFI9S8Z98vE5wq465ECliSD4=
+		</data>
+		<key>PaymentMethodSearch.plist</key>
+		<data>
+		YEj31rqUxs8vTuBtXkrUCvvKjSI=
 		</data>
 		<key>PaymentMethodSelectedTableViewCell.nib</key>
 		<data>
-		toP+uXF6g5EWHKBHBnOld9GGveE=
+		88SftBNISgrsafJr81Kfzw+NA7A=
 		</data>
 		<key>PaymentMethodTableViewCell.nib</key>
 		<data>
-		odIkOga79rYcQYBlh05bx679ruc=
+		DhtqJt5tjsSf23FqcKCUSqqI9CU=
 		</data>
 		<key>PaymentMethodsViewController.nib</key>
 		<data>
-		cOJS4unRe/FiVCCN1Qs+nsLrKzA=
+		WEim1HdwaEVtDNySblu4DX39aOw=
 		</data>
 		<key>PaymentSearchCell.nib</key>
 		<data>
-		KyFx+xsIVCdXdpVfhrkfZmz4EZo=
+		PoUYPgOg4WFllLLbD2r1qIXUPpw=
+		</data>
+		<key>PaymentSearchCollectionViewCell.nib</key>
+		<data>
+		AJy/zgr/ZwjIeyoUsDCKBjhKiqE=
 		</data>
 		<key>PaymentTitleAndCommentViewCell.nib</key>
 		<data>
-		sYd3lLwtQoZgm6P45BcnrxKXtbs=
+		MBBPvTucmLoRHNbre6NjiHt/2Og=
 		</data>
 		<key>PaymentTitleViewCell.nib</key>
 		<data>
-		6/IWRNa2VcYfkoGN79CdnFlCfu8=
+		Z4KZRAujmbXToixL2oK8a6nMpMc=
 		</data>
 		<key>PaymentTotalTableViewCell.nib</key>
 		<data>
-		07cBsXaQ+mHqJSiAN166we++By4=
+		rslWwVk7CiM47FE3ZMlLB1vHaj4=
+		</data>
+		<key>PaymentVaultTitleCollectionViewCell.nib</key>
+		<data>
+		pGYYFNIfrfWqgVGeLP3khD2T75E=
 		</data>
 		<key>PaymentVaultViewController.nib</key>
 		<data>
-		9YJ0NDBoEhN1N43fpRHSh4lW8Mc=
+		IgV5gjnj3WzXouI9k/w1kSuYlhk=
 		</data>
 		<key>PendingPaymentHeaderTableViewCell.nib</key>
 		<data>
-		bf2wKIHi5nkj8H7rylzwtpC5sBY=
-		</data>
-		<key>PreferenceDescriptionTableViewCell.nib</key>
-		<data>
-		zPJ+b+dKDJiE2iAm1EyqLUbcXws=
+		gQIuWCTknweEEWlA3Lhj6BeFjo0=
 		</data>
 		<key>PromoEmptyTableViewCell.nib</key>
 		<data>
-		VSg1TQlYCKvEDV0O2ZQ2uEnrueU=
+		P+hzEqupV5L3jzE+WblrtZANq20=
 		</data>
 		<key>PromoTableViewCell.nib</key>
 		<data>
-		chnFiYwfJn4u+49wTvGsnnLUTp8=
+		+dHO1Hz5ifQzh6zXiY4IbnzsZMo=
 		</data>
 		<key>PromoTyCDetailTableViewCell.nib</key>
 		<data>
-		0EyhqeXiL3QaIIjFjebkB1PecdM=
+		jouyDlw9m5bTlXqd3zerdGhawfc=
 		</data>
 		<key>PromoViewController.nib</key>
 		<data>
-		KO1r9X43d2lp7EPQ11Bz2tYbLoo=
+		DE05nhqu7yt+NM3MRMHUD8sW6Bg=
 		</data>
 		<key>PromosTyCTableViewCell.nib</key>
 		<data>
-		HJbdO5aWLfyCdp/2jJBDe9VI+R8=
+		m2QzLwaAItoFkiDU0OuzmD2pSYk=
 		</data>
 		<key>PromosTyCViewController.nib</key>
 		<data>
-		BkP/zDAjFZaqmbnFwJ0+KbKCxlw=
+		3hksiX87QTZUYYL/nTbKBnmfY74=
+		</data>
+		<key>PurchaseDetailTableViewCell.nib</key>
+		<data>
+		HrgIuPA+6D58PVCQkgKzzBl53F4=
+		</data>
+		<key>PurchaseItemDetailTableViewCell.nib</key>
+		<data>
+		qaZkn/hhsRBkzTY59BEq1axFw4o=
+		</data>
+		<key>PurchaseSimpleDetailTableViewCell.nib</key>
+		<data>
+		5BsoQXy7CZwBHsneMVo44twMX+Q=
+		</data>
+		<key>RecoverPaymentBodyTableViewCell.nib</key>
+		<data>
+		fBxn1ymH+467y0pHFybdxFiO2tw=
 		</data>
 		<key>RejectedPaymentBodyTableViewCell.nib</key>
 		<data>
-		ViuAXDQ++IxAtZg8qgIYUqOujT4=
+		0p4UbzzsZ9FlSTUA3RotWQxIMhk=
 		</data>
 		<key>RejectedPaymentHeaderTableViewCell.nib</key>
 		<data>
-		qovdXG1wBCV4H7WhqJ8Q9iK03Qg=
+		6eF24Fb1BuFVVFcOUA2vayc2L+c=
 		</data>
-		<key>SelectPaymentMethodCell.nib</key>
+		<key>RejectedTableViewCell.nib</key>
 		<data>
-		otDoYnejwSmELQ39ZN/RKUgZ2MM=
+		aYoHV/DxdGaiIQSEWVSA1jJzKs8=
+		</data>
+		<key>SecrurityCodeViewController.nib</key>
+		<data>
+		syXsnSCuPLj/tFbDpebvpBKfLAQ=
 		</data>
 		<key>SimpleInstructionsViewCell.nib</key>
 		<data>
-		bJzsEM2ahUwPIXDEkE/Oxk5DkJI=
+		MymFzH44iQH/k/EIX1pnDEYMAj8=
 		</data>
 		<key>SimpleInstructionsWithButtonViewCell.nib</key>
 		<data>
-		4x7t0Thcg6MgJsp+QDvOOC5AaDY=
+		tfAO8n34fNr66JGtH31qE7ZFfXQ=
 		</data>
 		<key>TermsAndConditionsViewCell.nib</key>
 		<data>
-		Sy2kGQWhocr3Vk5lUGzdGFbb82s=
+		f04HsTddwQESl0jnFbsni7KMK/0=
 		</data>
 		<key>VaultViewController.nib</key>
 		<data>
-		+GhPGDubmYcWXZ9wnnGkIPsWPT8=
+		9L9rhP6+1N+UyMip6ZEVRQTAiVg=
 		</data>
 		<key>WebViewController.nib</key>
 		<data>
-		hK28dlVqI51zAxkksgyqiFSt3JM=
+		NHUKNgvct6W9WNB8d901YT4LpaQ=
 		</data>
 		<key>es-CO.lproj/Localizable.strings</key>
 		<dict>
@@ -385,7 +441,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pW0cHxNO6lNsRE1uuwHUHnBYgsU=
+			D6h8EPjbDtCYI4VJ0s0ojshQaoc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -394,20 +450,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			naLmXlsdKfDPXSUwiIIsWVXi1kM=
+			4KSOyI64/VfeXUcdWx87hka3G9A=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>libswiftRemoteMirror.dylib</key>
-		<data>
-		MsIcUqmJN0JaYX6TgW+wYsQpXko=
-		</data>
 		<key>pt.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8rCkr8CpnKPXR4qdDEoOJksmdyo=
+			0lfbID9CP8/bo/Xs2uCFht0ujMg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -419,605 +471,660 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fFwBRW144SOrag6RS+zjxM11I9o=
+			d8vxvOruA/UPsPRoz557NPgkh2U=
 			</data>
 			<key>hash2</key>
 			<data>
-			WdEvLQxLfEqzu1swDaasaTLoR2c3w4jl0vVcp8QnGzA=
+			GLlFyZ28mr05dD5vxeP3djph1eSuMLjWddxiwYdKEtY=
 			</data>
 		</dict>
 		<key>ApprovedPaymentHeaderTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f2Z+Ph7jmTRAZZaPRjpKaqPoHZg=
+			mX8+MHya9OQJm+ShJ8FlyE/6tFo=
 			</data>
 			<key>hash2</key>
 			<data>
-			WzuxWQQm1ZddXfpFsJ68yq9IEb6G6Xs915WRFrV6eZs=
+			d6WMGwECjKY1X0GjD/L8xH1/uiVKwWWtPjIOJgs7GK0=
+			</data>
+		</dict>
+		<key>ApprovedTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ilrmv5zSI/aGjAy3fXTXK4Ny4Ao=
+			</data>
+			<key>hash2</key>
+			<data>
+			iuiTd5R7YS9+MHI+Rv8k7Cw+gp1p34LOmcbr28MziNs=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			csmLma7Oy4Trm75HQPI+/iEYleo=
+			DjFq+JR6kxSZ5YNnuOiIoaDbKJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/qQ/LgZVQHBH4hfnC72QFL+2wekUYEyytKz50M+s2SY=
+			e7780av0HEU1SiocNJDDssdnKgdoVTMymZIIzQ0zu7U=
 			</data>
 		</dict>
 		<key>AuthorizePaymentBodyTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vmvlqNk1hmDw9LoJDHRmhQFL724=
+			8Ccx9LLk5kEGV/RRO87z7T9qw2M=
 			</data>
 			<key>hash2</key>
 			<data>
-			HAbFB982QjQOZMaBJbMEusy86BEv79MA0DPxBb1ldag=
+			FYCkTJ5/MM4O9NbZP4KMo7WHM3+CrDbXpYVkWCs33rg=
 			</data>
 		</dict>
 		<key>AuthorizePaymentHeaderTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BjGmdygBET/xuIYWwSyJAX8cb64=
+			ZIlsXW9c5oaXegeNwhQ9pIPiZjQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			gY1cWh8Zykrn7iHcYNer09Hse+xQ740ZcBxtXS8GTZE=
+			qny0/lzvwM0gE9lUG19E1Ba5wfCYR9YdJu1nerLDDnk=
+			</data>
+		</dict>
+		<key>CallForAuthTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vURaos3bgAMYzJY9kTQFXIXv4OQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			hybQacZ02oh+EhFNWcfR4fLyd8q6ekpS/FSXfkVYPvk=
+			</data>
+		</dict>
+		<key>CardAdditionalStep.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BjqnOMJxnaC094SdGb/OUxcrWNM=
+			</data>
+			<key>hash2</key>
+			<data>
+			E/Kn8IvHofIf3weD/HRFxWJzhlfUbtIJSeOMLJEn2Uo=
 			</data>
 		</dict>
 		<key>CardBackView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Gm7J9Jf2AgfIhoA4GXF4GwyfKZs=
+			wEuq+93jpXIux70J+dc4b+IEGV8=
 			</data>
 			<key>hash2</key>
 			<data>
-			rmr7GSElh4Z7F2os4cP1xfJIY0xiz0kbLYcbcraiSjA=
+			HJoxd3ol4N0anDzqHVvHHgLfaxsAiwqBfYUk98vmZGM=
 			</data>
 		</dict>
 		<key>CardFormViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OX06zQzBwka1rkoCJOFW8GEgUjU=
+			Ph3sy3Uh4+9hqe/FtwNWMSYXBvc=
 			</data>
 			<key>hash2</key>
 			<data>
-			EKcWQqu5cnRaemPkf3izK2qesuJub8JjeG17302aPWY=
+			U2K2cSAfp/1xL4XurOVLpHic09HLGbwJhiS+1cmGdmk=
 			</data>
 		</dict>
 		<key>CardFrontView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vWE3eAxC4sCDcthKuIZaRTM5Fjo=
+			pSB2Ik53G2b2w4hCk5tjUFFQ90A=
 			</data>
 			<key>hash2</key>
 			<data>
-			ftxeSUGvengIVvzBzd1CcTBgDXD8foeALmCcITnbl7A=
+			kTzd0Rt3v/aAl2wwx5izYCMX5ShH0BMglnT1OxzzUmc=
+			</data>
+		</dict>
+		<key>CardTypeTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WRZkwMF5nhEnfBJHDtfqSkpCPCs=
+			</data>
+			<key>hash2</key>
+			<data>
+			087QxiYykgisHmCeNhsLZ3TlVd/kHeOkVEUHMbKeL7E=
 			</data>
 		</dict>
 		<key>CheckoutViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eAr9GFaseqeKa5jiJEIcKk8Pgqg=
+			rKC24h7Nex0eU32vq3DfrmmWqSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			xJhywzMKUaG+eGkutbD6WUsQpvDqLmUrSXj9RpOo448=
+			BEkd0HRWeTgPkGXlomTbbLpT6ZtQBD36Hf6vujGUIGU=
+			</data>
+		</dict>
+		<key>ConfirmEmailTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U0Eusjzf5YhCiE4kmP8XRGq3pAM=
+			</data>
+			<key>hash2</key>
+			<data>
+			E7vljADH7dPfVdNdC4/uSX9wjDnidinWy2LgbLXmTi8=
+			</data>
+		</dict>
+		<key>ConfirmPaymentTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xYcFZACAPdll/mqn6cMeX0Mc4/c=
+			</data>
+			<key>hash2</key>
+			<data>
+			dc3lDVD5eJfyJyfW8h5nqaujyiglhvNQeYDgYKwXwVg=
 			</data>
 		</dict>
 		<key>CongratsPaymentMethodTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e+p91/ZZgFurYOygdgn0IeykkGE=
+			1/PqnXgxN+B87qq00Nf3BN7muuY=
 			</data>
 			<key>hash2</key>
 			<data>
-			jEYLkUdoLCwJQ3h/eDBATdLi83XfhcLk+VU0ZqrNu0k=
+			h1UhvVFOG9qn6oAUIWj/PpbOdRAeNdeVhu9kg1kLekg=
+			</data>
+		</dict>
+		<key>CongratsRevampViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vB4ADdUlGEfqAnpSirE52/Gz5+0=
+			</data>
+			<key>hash2</key>
+			<data>
+			nzV3xaoUqP2TfKEr5z9TG3As3LO1Jat/TiBmWV/yXE4=
 			</data>
 		</dict>
 		<key>CongratsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a0ZAeK0OnSTlQjhsaRQiKiYM1bY=
+			pA03uIWBUuo3LEa3dQsE3OWKmAI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ms3Vmr/HIcEi3/WS0i8YCIMj5k/IH6NcUeAV+0k0gpc=
+			J/1/1xH8UQUPt6ZtjnxzBrzxsUU7jg/rb7XmBaa3BcE=
 			</data>
 		</dict>
 		<key>CustomerCardsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a0FNbm7Z/94JXsAApJOfi3a4r6A=
+			yZ3QpXsVL0EO6A4iMCde/CmPfBs=
 			</data>
 			<key>hash2</key>
 			<data>
-			BWdlCQM4KXdbLfCt/TMkyMH/bW+AjN7/IhVki/9Hg3w=
+			P7HT/7paOXGzBga2zCyaZGX/aSc4jOoclaOZL2TAj+o=
+			</data>
+		</dict>
+		<key>CustomerPaymentMethodCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cw4qYYqA+WaqOulAwJ6naIW2WAc=
+			</data>
+			<key>hash2</key>
+			<data>
+			302Pkiv3y9/ZJAqiUXZr/jKQRg84A6Bv+idhbQtm/hY=
 			</data>
 		</dict>
 		<key>DefaultInstructionsFooterViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nqhs/8OpIO4cTIYOfeYpHBKAhao=
+			CfbDLAA+igfxe8B3GXX5USntPko=
 			</data>
 			<key>hash2</key>
 			<data>
-			3v2420JHvHi2Q4mtLtw8SIxdGMB57942/XbbAcca458=
+			Sh3UWWD0lEwr4ptviBwN4BC1/E73xTfm+O2Pb5RWTHU=
 			</data>
 		</dict>
 		<key>ErrorViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WvyoV7Z0sZLuiigt12Mz64f0wO8=
+			tJkUrw+9PMGyGLAOa5WJ8vadpgk=
 			</data>
 			<key>hash2</key>
 			<data>
-			P6qBYhoTcrMypgDpHBXG+UMoXWRAW33D6YjvMsSuuc0=
+			iOs5FUk3mUhNbVqPBGsJSDfJfgMf7HelvXLh/eOdH1Y=
 			</data>
 		</dict>
 		<key>ExitButtonTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3b3EDcRcPzptNkEv+Ww3gGtPDnk=
+			Ej4XdPUn+9MF2hEeQs0ePSYbpdw=
 			</data>
 			<key>hash2</key>
 			<data>
-			N5ZuYcMiuYDuvWJnhsZAFAfBPyJV42KgwGXs1n8OCeo=
+			t0cm+PPXMpYSId53IplFVHUBpTE/KN+rEIyVQPDPAec=
 			</data>
 		</dict>
-		<key>Frameworks/libswiftContacts.dylib</key>
+		<key>FooterTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I3HCKdCWFd35Up7xDWRhyVWv4Jw=
+			nU8/apsGa4en7gmb6xB7i4Nxz5s=
 			</data>
 			<key>hash2</key>
 			<data>
-			WDm2CYvPbHAbKmP6fRUP0xPzO/oiHj02FuDK8paQo04=
+			gMOPUVmJPaawDiPFbC+Ov3xGlNY+7G2yNqv+hYHjfkk=
 			</data>
 		</dict>
-		<key>Frameworks/libswiftCore.dylib</key>
+		<key>HeaderCongratsTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J4HYITsO7VVzrlrXFZPZk62XaVQ=
+			6XLk/4Z0Hsv8n5S8E9B8EBKR+g8=
 			</data>
 			<key>hash2</key>
 			<data>
-			iPihm75PT3eyjS4lF20Tr1GKMywhZEFFzLz7hatDVMg=
+			wwprnGsOqqX01FxlGbrDsyZKR3VWwGGgwxkQJswgsqM=
 			</data>
 		</dict>
-		<key>Frameworks/libswiftCoreGraphics.dylib</key>
+		<key>Headers/MPSDKLoadingView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k5nv6X6tI+LuczHJIRumbY0PqcA=
+			JgFZgVtnLQKoAtPYQYmsgQ6nL4A=
 			</data>
 			<key>hash2</key>
 			<data>
-			u+FxxU15ORpKrmd61+f6lf+rHdakgYpErbkUWwjJ0hY=
-			</data>
-		</dict>
-		<key>Frameworks/libswiftCoreImage.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gOzTwQLoF77Nn7GXxvZe1R6RPkk=
-			</data>
-			<key>hash2</key>
-			<data>
-			TURiSHAARaHIP+H7zTRwaDeLkaVS0WsqaZqTps0fb1s=
-			</data>
-		</dict>
-		<key>Frameworks/libswiftDarwin.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uqpkKPeNSwk39GZnvaWVH45mHGo=
-			</data>
-			<key>hash2</key>
-			<data>
-			T5EN4w5+di3FIpuZJm+gwypRmi5X+rTj5uvSYcuJzmM=
-			</data>
-		</dict>
-		<key>Frameworks/libswiftDispatch.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1UqjfPUw/QdtXnHVahCB/ZEdois=
-			</data>
-			<key>hash2</key>
-			<data>
-			oe67ZjsuJT6s+0EzHcTZJlaBFyrOttDrCDA8JvcNgIs=
-			</data>
-		</dict>
-		<key>Frameworks/libswiftFoundation.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0MkFuYppQzEDPyLnHu8oQ11YIfo=
-			</data>
-			<key>hash2</key>
-			<data>
-			S/41vb+jtjGUG5qegMBsDHnSJFO//Zby6TtloBO61aU=
-			</data>
-		</dict>
-		<key>Frameworks/libswiftObjectiveC.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NewJEpFg9MEbM4EXRFaVZnFOvX0=
-			</data>
-			<key>hash2</key>
-			<data>
-			lwET6ucrz3F0rxv3zWUHd8n1rzralDOEVUxhBrmTh04=
-			</data>
-		</dict>
-		<key>Frameworks/libswiftUIKit.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jweW+tO/KjrWrJ3sX9cnuP47TFM=
-			</data>
-			<key>hash2</key>
-			<data>
-			XYzsSZwjIpBQMsH/s1wmE31+TjHJPbW5U8oKZtkSedY=
+			7ygOPQkPQTX2erHZUXN6lQCaojBSebP1DrFOI+o4hZU=
 			</data>
 		</dict>
 		<key>Headers/MercadoPagoSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KdW096GtFsibwi8Ut3s+LidcxTI=
+			fKbBXED5V1LvRRJj+Eel7ed+010=
 			</data>
 			<key>hash2</key>
 			<data>
-			DHoWAjv57mvA9f0z6Rf+6wLZeiD1MDDOytMq9GHA8MI=
+			vekpSoh40yxXrZB9qehA9MZq9BQqKtNauMkRkrWZ9io=
 			</data>
 		</dict>
 		<key>Headers/MercadoPagoSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y8UQT4/5WgMOLz1QvSz/T14Z/NM=
+			lfIwoxLiSxfzR9ZxAQFn0PkU/6M=
 			</data>
 			<key>hash2</key>
 			<data>
-			E35Ble/EH4E/vI9p6dt6xxKIk4BZQFWS38JaYthh/zQ=
+			OOkbwrrZFd6NNQ9VPpTNDoBq0TdLSO4ImSdq/5m8liU=
+			</data>
+		</dict>
+		<key>Headers/UIView+RotateView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ourqfwYbj1dXiT3OpYNA9/sFw0k=
+			</data>
+			<key>hash2</key>
+			<data>
+			p68H9/yCjrE0nDZ96ZBfxeNgZ3V7cE15+S3Q3wv72qg=
 			</data>
 		</dict>
 		<key>IdentificationCardView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qRqiTqddVpgds3Up28COeP/ZdWs=
+			IojQ05hVCJFqEp1DUHtT3a5ISPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			8KWIEzJGzHWmgKQp9ZiSXD3U6zPPJXjZDxESfpFpHR4=
+			NTES1pQxq7ZfINrGcCfjEQo6rnxX505rI0MaFPgDSc4=
 			</data>
 		</dict>
 		<key>IdentificationViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7mtFCK5RVpZjSXbt1BA+05jC18g=
+			3oRo7e0B8jlHwnI/D4dTD0w16tk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ipFNo7Uaj+bXEOVMW+qnKFlOCAscVzxjtvonLBLbzCU=
+			0LBVowyBP3BiYBCwvHp84jkldz7l4fOpv25UUwFBUUo=
 			</data>
 		</dict>
 		<key>InstallmentSelectionTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wd60AxMgSaghBemDIVXhzI4omyw=
+			SPJUhX2Tdw4Sd2GSkYrlhtXxNZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			vniyvOJu55UAf+M8ArHTV1gBN39GpV8voz/wHS0cYSk=
+			o7UZk+UV1ocGHlxaH99qOcHPnmMEfnI2PasryqB6hIU=
 			</data>
 		</dict>
 		<key>InstallmentTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ky42+pyZLBt9sl1K/wzdhdwiyrk=
+			BDJEYyVe671omGtPsosPC5ajeUY=
 			</data>
 			<key>hash2</key>
 			<data>
-			DoctMw//94wXag1dDPEBDvIXHPgMBMdQAKHhw//5LjA=
+			WOCP/YAKagw8ZXlwNteIYwpqIGMtgFz+wqyCntWJFmo=
 			</data>
 		</dict>
 		<key>InstallmentsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YNCLo5Xt+NPvTvHHdau6mn/te78=
+			WR4Ilqjeb6N9FvrWF93WWtBvkwc=
 			</data>
 			<key>hash2</key>
 			<data>
-			O4iLwpG/X1WkBKPt35ItOzuJKn5Wr209RqWNepldv+8=
+			RHsWolM27d+CmBaGt0CMa96P909Lqzk3CXbQi+2jseE=
+			</data>
+		</dict>
+		<key>InstructionBodyTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hCrk3IT3JdmT3AgHUqD2p/H9lew=
+			</data>
+			<key>hash2</key>
+			<data>
+			FJibonD4lLQ2+PbASFGBJ+6DIySck0H1ZgiL0mJx5ac=
 			</data>
 		</dict>
 		<key>InstructionsAtmViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CThRTAD6OCBM75WuInStX4VHpuY=
+			9rMBlmqjLC+HkHAUAvFh2+w5SNQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			/wPAPfHCDqEwm7RxMzP6/1IcJol4LZBbymJDAZw2r40=
+			O8G+d4iIGR3Rbfeyel45wj7o4ToXgtt2hxJr6dTT8jc=
 			</data>
 		</dict>
 		<key>InstructionsFooterWithSecondaryInfoViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VW83YZKb+KdeDxHucVacMdWz7Y0=
+			LhzywaOyf8uPVEUb0+gsZ3o/sfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			NhosvkNZjY011iRXdv3So0uneE4kUvzl9AIhm9gKaKI=
+			xtFRWaZ5m7wDad81EmUEbOl896JTEmeq4cNSuhgDHek=
 			</data>
 		</dict>
 		<key>InstructionsFooterWithTertiaryInfoViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tuyg1i4Jcjv4PkpQ/YWxGCL1/eo=
+			z5UBDzT0bhYtdPcYdmzLkAAjNPE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q5Jn44EOQOw3IkIAOWqcwdQtrIAFdZHltKfOW0aX2mk=
+			8h2m3QpKZCYV63Fb89c8qv6GKHJfzHyClFmSvqwtShE=
 			</data>
 		</dict>
 		<key>InstructionsHeaderViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			988ccQn/zQc+TaaJROeBf6eXszM=
+			zdpS09gAzLvy/OsT+TqH2IVlSPQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			CyeqwK5d9wVFKtHDBj68TUl9ECZFxjKMZ1Zn5Wa6LXY=
+			UROy03TlhRKmctKGjmEAzsX/Zy8lf6cqGODI8NGGO4U=
+			</data>
+		</dict>
+		<key>InstructionsRevampViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HqTJlSZDqVqymcljd7L4yxiJJJw=
+			</data>
+			<key>hash2</key>
+			<data>
+			MScm0hcoZlOoinv/yzEOyS3FKgTp5xW/ROruZA05ATQ=
+			</data>
+		</dict>
+		<key>InstructionsSubtitleTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6gQMjP5Mo/2SZ3kcT4G+8O21K5s=
+			</data>
+			<key>hash2</key>
+			<data>
+			AMaf4zKEn85YVV9zEO6GPgsXg8shSwB2N8wbUU85NlQ=
 			</data>
 		</dict>
 		<key>InstructionsTwoLabelsAndButtonViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HRDwcou+5KGcWtqsbnFXu3XzBYk=
+			+6Y5eo8X04BckIfcc6S8L+w4dWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			GYJv11RuMm+zUkScdBA9a9QyvHQ2d0nMPWzrP/bjF1o=
+			UkWOZRg8ZIyCi2baJhBJ9TCsM4NpNtD02MlKVINN+bs=
 			</data>
 		</dict>
 		<key>InstructionsTwoLabelsViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/yGM8ZDEOwwKw4nJQGwW5oBXv2o=
+			UIaT5fQffnvJVnpSFPCpIrdIE8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			wzDz+FcIzk/wmmbYk+4y3wusl958rtuZ0wI7Te0ng/Y=
+			6UhbYqpBmfYozod2NZYMgwUVEQ/XO18wgWdd7eVB918=
 			</data>
 		</dict>
 		<key>InstructionsViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MyP0vgZxEdM6kaIBLDqi2DWxGBw=
+			G32Gnh4Pif91DyrI9qDxhHgQquo=
 			</data>
 			<key>hash2</key>
 			<data>
-			J9NJz29i+hdEO67Fu/Jnq1QP0yLGAQauglah6S2nOQQ=
+			KJc2eLbPJztkvb9dqEemDO8k+406/UcJYCIkg0OmgH8=
 			</data>
 		</dict>
 		<key>InstructionsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Cxp5nljtZln0hRwhqpgQaHgVAKk=
+			BPEJ/TFWjpi/G7oAipAZJ4Q7aa8=
 			</data>
 			<key>hash2</key>
 			<data>
-			zz8yY6XT1Q6Hv7HT3DUhTnrGceiDW6ZyLhxSQ90+O3w=
+			+tBOilLVmmfqhy0kJeoH9b/N8eZrGgzz86hsRkVJEFQ=
 			</data>
 		</dict>
 		<key>InstructionsWithButtonViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NYtXWV1K0GNoL34laLrKwcdqD1U=
+			WzOeIZfZK5HfVdE02WY0Vyie5uM=
 			</data>
 			<key>hash2</key>
 			<data>
-			wIeOwx7omCIviWGtsmMPU59CXMpXDNzIaU7SrXoIGqw=
+			xCKMJPWWfBYzdDDttk81KP6zwgQDxSQtuD5W2i0frpc=
 			</data>
 		</dict>
 		<key>IssuerCardViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cNv6cxo5Fmc6EaMyou8dUqkffIA=
+			2aPBPSbKpexNOGQPrgJ0ZfZvHMo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sa2LCwENc0Dq8P0DLDpCS1K+tPRqXdtVl/z9g81ZLLU=
+			aTk3ansdSlgUdxJdN89LdGTJ252XLZn9BVCXR+J9imY=
+			</data>
+		</dict>
+		<key>IssuerRowTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CIhq7MoGxLtlZK6Qc/L+LCpgZhA=
+			</data>
+			<key>hash2</key>
+			<data>
+			OBz9NUsCZXOR9apHh0V4iCmy1O38QbxpAOTiDJCE6S4=
 			</data>
 		</dict>
 		<key>IssuerTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AVYUsq+agbmBdQ1HXzz2Nj4y3WQ=
+			y9FAQguRoqXw2l9e4MUQ6wWoS/A=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUrcz5nAmvyRWzPMaBrhGzBLgKUuKml9rM+49UVtJ2c=
+			TGY8qsVwFiPRjgSWm8iflGzoFduEL0n0z0O1sBGWxV4=
 			</data>
 		</dict>
 		<key>IssuersViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RnZnXedMubGiyUNdY14lColMZQA=
+			vbE34Qh9QBfcEt03I+GGy7QWPls=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fi2jHUw5mREVgXCZsf1WbakNM585Ykbi0jFqvdUVU30=
+			8IOCc0tlU+r1ucJgvEbG4YvAG1BUE7Kpy5ftT5dypOQ=
 			</data>
 		</dict>
 		<key>MPCardNumberTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jVcArgY4Ev7ykTe76nvYda9c+K4=
+			h5EOdM8DEgAuSNzqTueR4yIRL40=
 			</data>
 			<key>hash2</key>
 			<data>
-			2TzIbKBwXbVaxioL9dKwUPQEr2G0UBrBX7Li9CAWFgk=
+			uVGzJxvcuBNx6Gtzv4HnzL58cKAd6Jn0dRxy+SpWTh8=
 			</data>
 		</dict>
 		<key>MPCardholderNameTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IJT/su67pVOdZWMMUw9T7Obbn9A=
+			gWqvfTV0GoaujTqAIEkM+iBkU2E=
 			</data>
 			<key>hash2</key>
 			<data>
-			rl0yvWTvWcrcVJhtwz9vuTucvJmLEuL5VbLCbZXzfFQ=
+			IKzX1N1VItp4DYSXTozHm4pCsMOEf/QTdeEPH+7ye00=
 			</data>
 		</dict>
 		<key>MPExpirationDateTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FXuVwqctoXgdmhBRb6vuTY9jFI8=
+			V+/Ot+iT1VHMiPqgQb0gJ5lYOtc=
 			</data>
 			<key>hash2</key>
 			<data>
-			IqvxfJ8JCoY7c5cYezsddS7aHbsEhWlsF5h8c5yUo8o=
+			WIrXNp5ltQ2VLxPv7f3yfuGl8mz2sHYe9Su8GlpzSss=
 			</data>
 		</dict>
 		<key>MPInstallmentsTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6bD1brC7hmohBJeKW5gqRWVCnv8=
+			hi3zF/Ef5Xb7qEUeCdcPgUx7aYw=
 			</data>
 			<key>hash2</key>
 			<data>
-			m++ct14WNf8juwu5CuGqvAnVOa6X5xZEprNdgoQT3t4=
+			fTGLoe4Ui2w11a/zAGhy9uiedsJqdhqO8xBEwrS7KjM=
 			</data>
 		</dict>
 		<key>MPPaymentMethodEmptyTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/7F8RwX0jQgrFIujYf4ZBM/eFGg=
+			S5Nl1dBvqskgtoKYI5FOoNWKqdw=
 			</data>
 			<key>hash2</key>
 			<data>
-			MSiuUA8oXIevfehmZIJ5MJmStK6kjlh2ihp2jA6Ru64=
+			dDjMEkN8I13HymAmg3JxR+T5/pC5eAUPZa0kmnDE+84=
 			</data>
 		</dict>
 		<key>MPPaymentMethodTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r/v+9D6fmVu8m/EIpFM0Wdtpm/o=
+			PjXqUmxTY8MRN/kvgdmQvw3INf8=
 			</data>
 			<key>hash2</key>
 			<data>
-			+FnKfaj5wkGLqQREEkyryT39MSVM/LxL7ccnNgAV/Tc=
+			KRidlUWQYyEYoe2uiJYizoA8Cal3IxkkPtSt94EJRe0=
 			</data>
 		</dict>
 		<key>MPSecurityCodeTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C+YDP+ZZJt9Qk//kdxgpf19Ti2k=
+			gFjEW9I5MSJkmGuHQCRB266ZHEs=
 			</data>
 			<key>hash2</key>
 			<data>
-			R2sIin02fe+VgmE1C93tJp6iFyQoeOnBd39/sNJ9MAo=
+			j91JMmab/cDG37rRF6y2DrD8zNGmDIryGmsw7/3zgTk=
 			</data>
 		</dict>
 		<key>MPUserIdTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eUPj2jN0YWTV1lkhmB8NQVVnJWQ=
+			pO6gfnSjLKftJ+dv4tf96CKWrp4=
 			</data>
 			<key>hash2</key>
 			<data>
-			oFw914QvpTLsP5ceJ2OKkotNph0t25SRquE432F2N8E=
+			PM1lozg1VlfYL6kiYQ8QfEFdoZ7yi0wCqbRzUh+eShs=
 			</data>
 		</dict>
-		<key>Modules/MercadoPagoSDK.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/MercadoPagoSDK.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VHHsWJXeN5VfqylZxlQ5j4nZ+6A=
+			PGUvh9nOSBt2j7qyI8LDxhsVKS0=
 			</data>
 			<key>hash2</key>
 			<data>
-			EhHXGQOLsU7MxNSq3xt2lnpWdWVZERXd3nDKPk4OrMo=
+			MU5bH7TnXE0BLA9/rfIPcw66zq69qqHty1gp1wPX400=
 			</data>
 		</dict>
-		<key>Modules/MercadoPagoSDK.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/MercadoPagoSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yErmwCX4N0uJA7iql5ymunMxM2c=
+			pbadwqBZ1AXI8dI0DNSPxCnFozc=
 			</data>
 			<key>hash2</key>
 			<data>
-			gXZNJcly/pBEGEdKPjJrO8Qzf0Qzvv/lCt7RrhLwwVo=
-			</data>
-		</dict>
-		<key>Modules/MercadoPagoSDK.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UG/q7CzHqyql4Xe9TmL2+odLCPw=
-			</data>
-			<key>hash2</key>
-			<data>
-			vpi/o2qg0m38cpizyhkoGPdyZuqqjvSfGBqUtXoZBD4=
-			</data>
-		</dict>
-		<key>Modules/MercadoPagoSDK.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GKf6a6fc/SQxWZv1yUIwxemXrmI=
-			</data>
-			<key>hash2</key>
-			<data>
-			20lQEqxwySPWiCwKM3bwWav3ffmqPyj+MGXO8Atebdo=
+			XPdQZt0bLIhzubZjD82RNOb74HTUsI9/sDcG3kKwTPw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1035,385 +1142,484 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O607aUdY//euJxw8BAvqxQ6TlvY=
+			/ItoZP8hLNnmoTtX688zw6Su9KI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZjkOCZ6CJF3P75VPeVlW42f+DO4C1RAyh9TD1Q5Vp1U=
+			37gbU8/yFVDE3Jqsmttb37KvmDag17196NObVhElnw0=
 			</data>
 		</dict>
 		<key>OfflinePaymentMethodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			20QulNkwBTFxrj6izo6V8Clxcms=
+			dA4ywZTJc+KN/mZnvNt2Ws0nEWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			1B+ZDIcwCnbCM1f2OaGbmeH1Fhx9JEWDEKIqLoEimQE=
+			cic8XpOM1p/+xa4BYN1m4PUUmfBETbZaiBubSsS8eNk=
 			</data>
 		</dict>
 		<key>OfflinePaymentMethodWithDescriptionCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UGf6YBuxbUU7IxL4psbmZ4jfWAQ=
+			CiRsMGBA91e6UUWMdMBbB23FbF4=
 			</data>
 			<key>hash2</key>
 			<data>
-			OSRc+jfWayZVrVkmtM4PcN3gR0h8Ok1WIZmSI4/hPkY=
+			73T4NEgUxfbfwMf1iuqc4Vdia8pK0i9PXnYXSuAHDXs=
+			</data>
+		</dict>
+		<key>PayerCostCardTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4jHas5V7lwCwi+nVjVdKtIL0Ams=
+			</data>
+			<key>hash2</key>
+			<data>
+			lbe3zE5wQiuHclmIWWHQXFWRunpN3GE8tIvEYJtXhbA=
+			</data>
+		</dict>
+		<key>PayerCostRowTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QG0HqL2aTxABBDtsJ3cXnB249qo=
+			</data>
+			<key>hash2</key>
+			<data>
+			xkZfBaHoxDc2yTSB4eRxbuIZb4W3JcFTLPZWfxbsyhQ=
 			</data>
 		</dict>
 		<key>PayerCostTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Pmohb75s51LwUSQW8+OCYSHq+rs=
+			T8uGA60eCF0vIBoGuHX0CS8szVg=
 			</data>
 			<key>hash2</key>
 			<data>
-			+7RL3E4RSRuj1A7uZmxtAv1TDiDzg1lAMQqJj2k/X9U=
+			hdsbOqupSE/HTgLAtC8U4NSMXNruMANGA2aD0rnxqJU=
+			</data>
+		</dict>
+		<key>PayerCostTitleTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NXZnAYat7lNNAjnbXOntSfQRwYI=
+			</data>
+			<key>hash2</key>
+			<data>
+			CyfjWNeblvvN88QgsIFo5jqkCyOOg3EXBprIVpSksfs=
 			</data>
 		</dict>
 		<key>PayerCostViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xOHNsKEg1rKcdWIja/ZYlcAQpEo=
+			bUgQGeH2xgLwxByOzH3lwMKLY1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			SnV0SpwsyM29PtmyQTxAgKpeLRQk9jHFWE9gyi/RLXE=
+			e5VoBQpI/Zl8AsL6vBoU/mEtFL+qqgt4kMwxasIUuu0=
 			</data>
 		</dict>
 		<key>PaymentCongratsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PdALv/DcclnCHinw0I8sUK6M654=
+			F3Bmj0qo3gdjVB+XmGjhmmirGzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dd8uZMWPgEPBp35Mj76/0u6oVU70Wgbz8+8FwLKbe9E=
+			GTScQX8LWwyUna731Zef3uefPD5nm+nKKIaenJcKM8c=
 			</data>
 		</dict>
 		<key>PaymentDateTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Bii3ua1IOKzfPgnBft1iGtkf0tM=
+			fchloNdUhN6FWU9bbTTWo0LygNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ALojMPFBB6VxZfcuKwEMpT/CQae9Q6m3kMnCSIVEz3Y=
-			</data>
-		</dict>
-		<key>PaymentDescriptionFooterTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			26bfB3s6Za7qFCsGs4ULgL9+pz0=
-			</data>
-			<key>hash2</key>
-			<data>
-			umr+dplTjDvauWWVqIjf2uJLzLiERyux7v60pLVvbzE=
+			A0d4SJK48FUm6ylz3njh8CP3eoaOb038GiaVqrdLuTM=
 			</data>
 		</dict>
 		<key>PaymentIDTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lprbQ/1ODatYmENuyG+Qs7hq3/0=
+			UvLbf1DYiM5ALeLDdI+wtY69XfM=
 			</data>
 			<key>hash2</key>
 			<data>
-			U4TTNr4zK3lM5dbimFYa0cMWD19iwSL8ewd7IAVcLZw=
+			MZdQhx1DwYBpcpwabjc+KkqMF0UFrnPZ5PzNxosnNIw=
 			</data>
 		</dict>
 		<key>PaymentMethod.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qchMQJq8u288KjdiNjuUKwIEGsI=
+			ztz7b53semAOR2f6iS9JCJTRX/A=
 			</data>
 			<key>hash2</key>
 			<data>
-			tS8OdP5BrXZ7lpL372iWt4IhDO7XHzWCM3BTxJBMl9c=
+			nxCk/NQwocVQxhPgKalbabXB6XKp9ukSwiLwI09niNw=
 			</data>
 		</dict>
 		<key>PaymentMethodImageViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IO8HyXytRcY4aT6OdzdB+gKvRCs=
+			temQFI9S8Z98vE5wq465ECliSD4=
 			</data>
 			<key>hash2</key>
 			<data>
-			xsMVUW/0nz/6RuCcXxB+2S2DfzLOvSFbznAtzxNcRfc=
+			g173fzGAYMqC5FTOm4A9DLMIN2ewQl6kGRMHcON6qCI=
+			</data>
+		</dict>
+		<key>PaymentMethodSearch.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YEj31rqUxs8vTuBtXkrUCvvKjSI=
+			</data>
+			<key>hash2</key>
+			<data>
+			mDxFgYfkJgy+HvZb7TOIWxhs6Zgh+4V+r1gAhADJWvI=
 			</data>
 		</dict>
 		<key>PaymentMethodSelectedTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			toP+uXF6g5EWHKBHBnOld9GGveE=
+			88SftBNISgrsafJr81Kfzw+NA7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			l0hqigs+XpEfr6Yx/jJ1RM2Rg3p92z+2JoS7dcmzKBw=
+			QLCAwGkqMXKA2Ejh/DjtMtjy/EvGsItxwKLGeRcehU8=
 			</data>
 		</dict>
 		<key>PaymentMethodTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			odIkOga79rYcQYBlh05bx679ruc=
+			DhtqJt5tjsSf23FqcKCUSqqI9CU=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Tl3LoL9GHXIvYMmLZXqZq95sfnu4Nh6CNVI3DCutcY=
+			H9WnsHtlps/XcfiD/+p32HhvPsBPW7UoZ6Ko6eboWZo=
 			</data>
 		</dict>
 		<key>PaymentMethodsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cOJS4unRe/FiVCCN1Qs+nsLrKzA=
+			WEim1HdwaEVtDNySblu4DX39aOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			TDspwPEciaxTxz7avnODZpRv2r5EnxPcqFp+POQ8Q7k=
+			mAY5kDA3KFZLWzFU+g1oH7zUGlWGXWyKK3DuiQiDn0g=
 			</data>
 		</dict>
 		<key>PaymentSearchCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KyFx+xsIVCdXdpVfhrkfZmz4EZo=
+			PoUYPgOg4WFllLLbD2r1qIXUPpw=
 			</data>
 			<key>hash2</key>
 			<data>
-			2eN7ZY9YTxHsipy8IC8TlcbSmX4MNawQxs5ZdP6PQ8o=
+			jmW7z8lBD3z5XqImiZFYFxJlIeVetQ+P3iFcpGujBog=
+			</data>
+		</dict>
+		<key>PaymentSearchCollectionViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AJy/zgr/ZwjIeyoUsDCKBjhKiqE=
+			</data>
+			<key>hash2</key>
+			<data>
+			+E4CHyRAgoHz/H1+s4Fq23ISGz8uParSSEpll2ZkhHY=
 			</data>
 		</dict>
 		<key>PaymentTitleAndCommentViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sYd3lLwtQoZgm6P45BcnrxKXtbs=
+			MBBPvTucmLoRHNbre6NjiHt/2Og=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lt41i43/9JNk8YykQzYkCs2j1SqNnUqGt0w9egxwYas=
+			95vTe5ehVLGEE8U8P49oWbdLaBrM9di8ApGExZPdqng=
 			</data>
 		</dict>
 		<key>PaymentTitleViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6/IWRNa2VcYfkoGN79CdnFlCfu8=
+			Z4KZRAujmbXToixL2oK8a6nMpMc=
 			</data>
 			<key>hash2</key>
 			<data>
-			CpZfB467sjN6quWVniwqp6OuyBlwHyMMpWh8GLA+NfE=
+			q9fN4lXAXFlegjZ3bj3RjHw35JrupMkmtgfEufCbZ6A=
 			</data>
 		</dict>
 		<key>PaymentTotalTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			07cBsXaQ+mHqJSiAN166we++By4=
+			rslWwVk7CiM47FE3ZMlLB1vHaj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			9zMHtccDDwkPmy4NYRchi+LAI7vGVoc/XV5cC9OAN48=
+			qF8gCDS+EIeclj8cAqORyR+X91a5KzhfypN86CWxtrY=
+			</data>
+		</dict>
+		<key>PaymentVaultTitleCollectionViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pGYYFNIfrfWqgVGeLP3khD2T75E=
+			</data>
+			<key>hash2</key>
+			<data>
+			ygeg2TCm4UOfiw72HKUm5z/89nonkhFPibCmHsMSkYY=
 			</data>
 		</dict>
 		<key>PaymentVaultViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9YJ0NDBoEhN1N43fpRHSh4lW8Mc=
+			IgV5gjnj3WzXouI9k/w1kSuYlhk=
 			</data>
 			<key>hash2</key>
 			<data>
-			rQE4VFHAvMz3t+vBV5PO98e7eNrV3Qz113KGsG13LGQ=
+			FPHTMLizD8jcF5SYTdWX5csXUp2BHvuglvtL9pK96mI=
 			</data>
 		</dict>
 		<key>PendingPaymentHeaderTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bf2wKIHi5nkj8H7rylzwtpC5sBY=
+			gQIuWCTknweEEWlA3Lhj6BeFjo0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RZeJ36ua5Q7ZltGAGnSirTn5Be32cQMJ/MVqAhgBVxE=
-			</data>
-		</dict>
-		<key>PreferenceDescriptionTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zPJ+b+dKDJiE2iAm1EyqLUbcXws=
-			</data>
-			<key>hash2</key>
-			<data>
-			3UJMMrhGLxGqgDq5L2i7Zi6OKgCElI01UlkiPJVs9BM=
+			pqZPWS4pGlYvVmXfi10h7YpLNsNl4Sus8MzlQC1/rRc=
 			</data>
 		</dict>
 		<key>PromoEmptyTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VSg1TQlYCKvEDV0O2ZQ2uEnrueU=
+			P+hzEqupV5L3jzE+WblrtZANq20=
 			</data>
 			<key>hash2</key>
 			<data>
-			xTw8dB2dEfsdr9sL/2nR0249sZObp3M3LPFBn4lELFg=
+			XsbitXeBWs72CBZm8MQPwdepM3P45cwUutSt8o0Dji0=
 			</data>
 		</dict>
 		<key>PromoTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			chnFiYwfJn4u+49wTvGsnnLUTp8=
+			+dHO1Hz5ifQzh6zXiY4IbnzsZMo=
 			</data>
 			<key>hash2</key>
 			<data>
-			gRp8GvhhWxnBquFP/dJb/06l8Ijvc3ZUuKexRuaotxg=
+			A3AkgnEwt1a6F5FqvQHu/ZMTI5AOxJJHiV/4LNL2g3g=
 			</data>
 		</dict>
 		<key>PromoTyCDetailTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0EyhqeXiL3QaIIjFjebkB1PecdM=
+			jouyDlw9m5bTlXqd3zerdGhawfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			cHWh5ofrZbUm5W0qJ8CwMWB+NbcMqqrTafo5BAi5XDA=
+			MiHwi7inm1laZbX520H5N7b8AEVFdeszhPi1Fph6lz4=
 			</data>
 		</dict>
 		<key>PromoViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KO1r9X43d2lp7EPQ11Bz2tYbLoo=
+			DE05nhqu7yt+NM3MRMHUD8sW6Bg=
 			</data>
 			<key>hash2</key>
 			<data>
-			nLJ8lk5ihLmXgPPlbAQydYOYwQJSsb6QYbGBRjvA2Mg=
+			00Z6zyHBjn9tIsSO3FpYZVLUgTYp+Zz65QHnuKFbujA=
 			</data>
 		</dict>
 		<key>PromosTyCTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HJbdO5aWLfyCdp/2jJBDe9VI+R8=
+			m2QzLwaAItoFkiDU0OuzmD2pSYk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZLgr3zyE45X5jAE0pEK3oQTBPxkl9xzKUVur8zr8Ncs=
+			sP9yxY5GFQxdxZvVLFB304S+F1fgQs/pAKF4RFMWios=
 			</data>
 		</dict>
 		<key>PromosTyCViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BkP/zDAjFZaqmbnFwJ0+KbKCxlw=
+			3hksiX87QTZUYYL/nTbKBnmfY74=
 			</data>
 			<key>hash2</key>
 			<data>
-			muELdWYXp9MMInuHXCO4Vp0HH03arEU6spvNxWxAB5g=
+			kEWS0oQyPpX6E/oLoAE3679FE7x0Pw3BxB5pkoE263k=
+			</data>
+		</dict>
+		<key>PurchaseDetailTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HrgIuPA+6D58PVCQkgKzzBl53F4=
+			</data>
+			<key>hash2</key>
+			<data>
+			gJ+YjKbvJwE8ioXwV9II0TF8O925x1byoQnvnRc/teI=
+			</data>
+		</dict>
+		<key>PurchaseItemDetailTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qaZkn/hhsRBkzTY59BEq1axFw4o=
+			</data>
+			<key>hash2</key>
+			<data>
+			0mKbEuttZSvzfxjufszbMNS0lI5EzJwTeygmTrWt/qo=
+			</data>
+		</dict>
+		<key>PurchaseSimpleDetailTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5BsoQXy7CZwBHsneMVo44twMX+Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			7yB5dR18eRdSIG7L51G0gwLeYrdRxA7N+0URP9XcNek=
+			</data>
+		</dict>
+		<key>RecoverPaymentBodyTableViewCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fBxn1ymH+467y0pHFybdxFiO2tw=
+			</data>
+			<key>hash2</key>
+			<data>
+			niJfwE1ruz7K4R/e8XIFLTClZEYg1fGIej/KYJcF0/E=
 			</data>
 		</dict>
 		<key>RejectedPaymentBodyTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ViuAXDQ++IxAtZg8qgIYUqOujT4=
+			0p4UbzzsZ9FlSTUA3RotWQxIMhk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0hN1xKClGhmFfM/zBcz/BYw/o6Drf5auqnvS2/jv0cc=
+			Ycyk+ddYudlWqMjjL8sh41BepvYPuL69dplSYdWUutU=
 			</data>
 		</dict>
 		<key>RejectedPaymentHeaderTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qovdXG1wBCV4H7WhqJ8Q9iK03Qg=
+			6eF24Fb1BuFVVFcOUA2vayc2L+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			w7JZKAvDBYCakSglFoP2xPp/uAamYSvILhp65hUSkhw=
+			aQgcnSMSV3LXFgLnCuD0xQjUi6qDVB1cxVM7FPoCgAM=
 			</data>
 		</dict>
-		<key>SelectPaymentMethodCell.nib</key>
+		<key>RejectedTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			otDoYnejwSmELQ39ZN/RKUgZ2MM=
+			aYoHV/DxdGaiIQSEWVSA1jJzKs8=
 			</data>
 			<key>hash2</key>
 			<data>
-			xwuYT5HJYKfRAn+2fT6TBxHMpoI/Xq+6RcQlAjtobrU=
+			WCTLULI3RSVwayOqir0Yq0WGU/zhQApD/g6tO26l8YU=
+			</data>
+		</dict>
+		<key>SecrurityCodeViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			syXsnSCuPLj/tFbDpebvpBKfLAQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			vyVT7OXGK1xjTAvlElob2el9wTO73TuXjfdGhEl2MT0=
 			</data>
 		</dict>
 		<key>SimpleInstructionsViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bJzsEM2ahUwPIXDEkE/Oxk5DkJI=
+			MymFzH44iQH/k/EIX1pnDEYMAj8=
 			</data>
 			<key>hash2</key>
 			<data>
-			nl0FPGqxZ+F2EZDkaNdbeKhSWDE7t/yo20ATL0eyeC4=
+			PVuVLoC8d19Dmo/V2uOe2U57fzkUFprrgCIuzOYI+no=
 			</data>
 		</dict>
 		<key>SimpleInstructionsWithButtonViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4x7t0Thcg6MgJsp+QDvOOC5AaDY=
+			tfAO8n34fNr66JGtH31qE7ZFfXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			xzDoD4deT177NpeMllIGLjElL9kSp2H78eWzwy4OrOg=
+			cp0j9jITRtPwUf2CmVcG5BilQEhkxk6zFErpj7t5Dko=
 			</data>
 		</dict>
 		<key>TermsAndConditionsViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sy2kGQWhocr3Vk5lUGzdGFbb82s=
+			f04HsTddwQESl0jnFbsni7KMK/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ibcoe5NGP6ymlE71co51bjt3RLb5L9r0RUMe/rwEA18=
+			OER5KlTdWsBYdhnai4Nl5XpOIJG8SzdaYyAZPZ6fd9k=
 			</data>
 		</dict>
 		<key>VaultViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+GhPGDubmYcWXZ9wnnGkIPsWPT8=
+			9L9rhP6+1N+UyMip6ZEVRQTAiVg=
 			</data>
 			<key>hash2</key>
 			<data>
-			E1QYTjBaNUYT1sjXU0DIp/qr7AfC3K6XfBXXGPeqAhM=
+			xNUPhoQKPtlGxqN5cdgMzAUsi5r61vLsZp0wSuviEAQ=
 			</data>
 		</dict>
 		<key>WebViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hK28dlVqI51zAxkksgyqiFSt3JM=
+			NHUKNgvct6W9WNB8d901YT4LpaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			lVEyj8Jgxu3q4kvNhU22HyS+nwjf/+Yv5qAeH0B3aFE=
+			MaImc67p3pvCKlY2YfeCrj00ZT6P/HjD1j7GTXbSkNs=
 			</data>
 		</dict>
 		<key>es-CO.lproj/Localizable.strings</key>
@@ -1433,11 +1639,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pW0cHxNO6lNsRE1uuwHUHnBYgsU=
+			D6h8EPjbDtCYI4VJ0s0ojshQaoc=
 			</data>
 			<key>hash2</key>
 			<data>
-			wZDdUzcXpUy40TLml9kt4n1gvNlS7Jw5zbMrp7B4hMM=
+			f8vosDqdYY5DKzZQaSK1p2Rx86q7LyE9cHpGIhlIMi8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1446,35 +1652,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			naLmXlsdKfDPXSUwiIIsWVXi1kM=
+			4KSOyI64/VfeXUcdWx87hka3G9A=
 			</data>
 			<key>hash2</key>
 			<data>
-			66D1euj+2ykTOS0jObnc100Fb/lGk6cTQUN178YTivQ=
+			LCqox3PQHpgaiBR44mzZo+peF/oRfsMyVn34O5ZuWhE=
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>libswiftRemoteMirror.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MsIcUqmJN0JaYX6TgW+wYsQpXko=
-			</data>
-			<key>hash2</key>
-			<data>
-			dzXjnO4rfJVgZgswQFCsduPEuiT5n/MQYW9SacYWGKI=
-			</data>
 		</dict>
 		<key>pt.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8rCkr8CpnKPXR4qdDEoOJksmdyo=
+			0lfbID9CP8/bo/Xs2uCFht0ujMg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hbDAq/GW3/pN4uo3vY/l1+cwjD8Np1NpjPatQwO9EsQ=
+			V0oOg2m+qwCXM5OoOahFUtFkrbB1ctsIui03zdPtaOQ=
 			</data>
 			<key>optional</key>
 			<true/>
