@@ -55,4 +55,12 @@ import RNMercadopago from 'react-native-mercadopago';
     RNMercadopago.startCheckout(publicKey, prefId, null, false, (payment) => { this._success(payment)}, (error) => { this._failure(error) });
 ...
 ```
-  
+
+## Special Thanks
+
+Former Shovel Apps Dev Team:
+
+- [Samuel Chalela](https://github.com/schalela)
+- [Tomas Marcote](https://github.com/tmarcote)
+- [Guido Maliandi](https://github.com/gmaliandi)
+- [Patricio Perez](https://github.com/pato12)
